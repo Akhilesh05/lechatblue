@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2015873123">
+    <data-source source="LOCAL" name="Rails lechatblue: development" uuid="ed8fede7-58b5-4847-83da-281c8bb420c2">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails lechatblue: production" uuid="796924c0-30f6-486d-9f52-bbd90021647c">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:lechatblue_production</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
