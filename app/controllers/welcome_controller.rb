@@ -4,7 +4,9 @@ class WelcomeController < ApplicationController
 				controller: params[:controller],
 				action: params[:action],
 				styles: [params[:action]],
-				scripts: [params[:action]]
+				other_styles: [],
+				scripts: [params[:action]],
+		        other_scripts: []
 		}
 	end
 end

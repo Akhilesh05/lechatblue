@@ -1,0 +1,36 @@
+<div id="scaffold">
+    <p id="notice"><%= notice %></p>
+
+    <p>
+      <strong>Name:</strong>
+      <%= @pizza.name %>
+    </p>
+
+    <p>
+      <strong>Ingredients:</strong>
+      <%= @pizza.ingredients %>
+    </p>
+
+    <p>
+      <strong>Description:</strong>
+      <%= @pizza.description %>
+    </p>
+
+    <p>
+      <strong>Price:</strong>
+      <%= @pizza.price %>
+    </p>
+
+    <p>
+      <strong>Available:</strong>
+      <%= @pizza.available %>
+    </p>
+
+    <p>
+      <strong>Image:</strong>
+      <%= @pizza.image %>
+    </p>
+
+    <%= link_to 'Edit', edit_pizza_path(@pizza) %> |
+    <%= link_to 'Back', pizzas_path %>
+</div>

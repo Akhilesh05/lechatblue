@@ -1,0 +1,39 @@
+<div id="scaffold">
+    <h1>Listing pizzas</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Ingredients</th>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Available</th>
+          <th>Image</th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <% @pizzas.each do |pizza| %>
+          <tr>
+            <td><%= pizza.name %></td>
+            <td><%= pizza.ingredients %></td>
+            <td><%= pizza.description %></td>
+            <td><%= pizza.price %></td>
+            <td><%= pizza.available %></td>
+            <td><%= pizza.image %></td>
+            <td><%= link_to 'Show', pizza %></td>
+            <td><%= link_to 'Edit', edit_pizza_path(pizza) %></td>
+            <td><%= link_to 'Destroy', pizza, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+
+    <br>
+
+    <%= link_to 'New Pizza', new_pizza_path %>
+</div>
