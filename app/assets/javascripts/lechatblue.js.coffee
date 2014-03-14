@@ -1,6 +1,6 @@
 $(window).on "load", ->
 	$("body").css "visibility", "visible"
-	$("#left_section").width ($(window).width() - 370) / 2
+	#$("#left_section").width ($(window).width() - 360) / 2
 	if $(window).height() > 464
 		$("#left_section").height $(window).height()
 	#$("#long_flag > div:nth-child(1)").width $(window).width()/3

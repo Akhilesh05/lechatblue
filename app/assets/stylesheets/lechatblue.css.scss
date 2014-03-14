@@ -49,21 +49,22 @@ body{
 	background: image_url("pizza-back______.png");
 }
 #wrapper{
-	overflow: hidden;
 	min-width: 800px;
-	height: 100%;
+	width: 800px;
+	margin: 0 auto;
 	#left_section{
-		min-width: 215px;
+		min-width: 220px;
+		width: 220px;
+		display: table-cell;
 		padding: 0 0 0 0;
 		background-color: rgba(255,255,255,.7);
 		box-shadow: 0 0 10px rgba(0,0,0,1);
 		#logo{
-			min-width: 215px;
 			width: inherit;
 			height: 200px;
 			#logo_image{
 				height: inherit;
-				margin: 0 15px 0 0;
+				margin: 0 10px 0 0;
 				background: image_url("LCBsmall.png");
 				background-position: right;
 				background-repeat: no-repeat;
@@ -104,7 +105,7 @@ body{
 		}
 	}
 	#right_section{
-		width: 575px;
-		padding: 10px 0 0 10px;
+		width: 580px;
+		display: table-cell;
 	}
 }
