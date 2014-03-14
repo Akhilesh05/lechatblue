@@ -3,7 +3,7 @@ $(window).on "load", ->
 
 $ ->
 	$("body").css "visibility", "visible"
-	if $(window).height() > 464
+	if $(window).height() > 469
 		$("#left_section").height $(window).height()
 	$("[data-href]").click ->
 		href = $(this).attr("data-href")
