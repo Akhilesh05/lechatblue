@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Lechatblue</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+	<head>
+		<title>Lechatblue</title>
+		<%#= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+		<%#= javascript_include_tag "application", "data-turbolinks-track" => true %>
+		<link rel="icon" type="image/ico" href="<%= image_path "favicon.ico" %>"/>
+		<%= stylesheet_link_tag "lechatblue" %>
+		<%= stylesheet_link_tag    "#{@layout_details[:controller]}" %>
+		<% @layout_details[:styles].each do |style| %>
+			<%= stylesheet_link_tag "#{@layout_details[:controller]}/#{style}" %>
+		<% end %>
+		<%= javascript_include_tag "jquery-1.9.0.min" %>
+		<%= javascript_include_tag "apprise-v2" %>
+		<%= stylesheet_link_tag "apprise-v2" %>
+		<%= javascript_include_tag "lechatblue" %>
+		<%= javascript_include_tag "#{@layout_details[:controller]}" %>
+		<% @layout_details[:scripts].each do |script| %>
+			<%= javascript_include_tag "#{@layout_details[:controller]}/#{script}" %>
+		<% end %>
+		<%= javascript_tag do %>
+			<% if !flash[:error].nil? %>
+				window.error_any = true
+				window.error_desc = "<span class='ubuntu black large'>"+"<%= j flash[:error] %>".replace(/&lt;/g, "<").replace(/&gt;/g, ">")+"</span>"
+			<% else %>
+				window.error_any = false
+			<% end %>
+		<% end %>
+		<%= csrf_meta_tags %>
+	</head>
+	<body>
+		<!--<aside id="long_flag"><div></div><div></div><div></div></aside>-->
+		<aside id="pizza-back"></aside>
+		<div id="wrapper">
+			<aside class="float_left" id="left_section">
+				<div id="logo">
+					<div id="logo_image">
+						&nbsp;
+					</div>
+				</div>
+				<div id="sidebar">
+					<div class="selected" data-href="/">
+						Welcome page
+					</div>
+					<div data-href="/menu-book">
+						Menu book
+					</div>
+					<div data-href="">
+						Order pizza now
+					</div>
+					<div data-href="/">
+						About us/Map
+					</div>
+				</div>
+			</aside>
+			<div class="float_left" id="right_section">
+				Akh
+			</div>
+		</div>
+	</body>
 </html>
