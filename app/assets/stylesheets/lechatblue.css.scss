@@ -53,12 +53,14 @@ body{
 	width: 800px;
 	margin: 0 auto;
 	#left_section{
+		z-index: 2;
+		position: relative;
 		min-width: 220px;
 		width: 220px;
 		display: table-cell;
 		padding: 0 0 0 0;
 		background-color: rgba(255,255,255,.7);
-		box-shadow: 0 0 10px rgba(0,0,0,1);
+		box-shadow: 0 0 15px rgba(0,0,0,1);
 		#logo{
 			width: inherit;
 			height: 200px;
@@ -105,7 +107,15 @@ body{
 		}
 	}
 	#right_section{
+		background: rgba(255,255,255,.4);
+		box-shadow: 5px 0 10px rgba(0,0,0,.7);
+		z-index: 1;
+		position: relative;
 		width: 580px;
 		display: table-cell;
+		#cover{
+			background: image_url("cover.png");
+			height: 200px;
+		}
 	}
 }
