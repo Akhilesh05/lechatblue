@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96bfc33e-e416-4265-939a-3b3d84c8547b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/menu_book.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/menu_book.html.erb" />
     </list>
     <ignored path="lechatblue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,12 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu_book.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="menu_book.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/menu_book.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="47" selection-start="538" selection-end="538" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="391">
+            <state line="5" column="81" selection-start="241" selection-end="241" vertical-scroll-proportion="0.14455782" vertical-offset="0" max-vertical-offset="588">
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -57,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lechatblue.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="lechatblue.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="44" selection-start="5796" selection-end="5796" vertical-scroll-proportion="0.8226087" vertical-offset="1295" max-vertical-offset="1938">
+            <state line="104" column="44" selection-start="5796" selection-end="5796" vertical-scroll-proportion="-18.192308" vertical-offset="1295" max-vertical-offset="1938">
               <folding />
             </state>
           </provider>
@@ -110,9 +108,9 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/welcome/menu_book.js.coffee" />
         <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee" />
-        <option value="$PROJECT_DIR$/app/views/welcome/menu_book.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/welcome/menu_book.html.erb" />
       </list>
     </option>
   </component>
@@ -728,17 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/menu_book.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="47" selection-start="538" selection-end="538" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="391">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="45" selection-start="258" selection-end="258" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="697">
@@ -748,8 +735,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="44" selection-start="5796" selection-end="5796" vertical-scroll-proportion="0.8226087" vertical-offset="1295" max-vertical-offset="1938">
+        <state line="104" column="44" selection-start="5796" selection-end="5796" vertical-scroll-proportion="-18.192308" vertical-offset="1295" max-vertical-offset="1938">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/menu_book.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="81" selection-start="241" selection-end="241" vertical-scroll-proportion="0.14455782" vertical-offset="0" max-vertical-offset="588">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
