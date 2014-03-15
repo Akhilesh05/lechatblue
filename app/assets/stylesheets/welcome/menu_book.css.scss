@@ -70,9 +70,11 @@
 		.menu_details{
 			float: left;
 			height: inherit;
+			max-width: 455px;
+			overflow: hidden;
 			.category{
 				margin: 37px 0 0 0;
-				font: 400 50px/1 "Lobster Two";
+				font: 400 50px/1 "Niconne";
 				text-align: center;
 			}
 		}

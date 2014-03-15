@@ -125,6 +125,6 @@ class PizzasController < ApplicationController
 
 	# Never trust parameters from the scary internet, only allow the white list through.
 	def pizza_params
-		params.require(:pizza).permit(:name, :ingredients, :description, :price, :available, :image)
+		params.require(:pizza).permit(:name, :ingredients, :description, :price, :available, :veg, :image)
 	end
 end
