@@ -6,7 +6,8 @@ class WelcomeController < ApplicationController
 				styles: [params[:action]],
 				other_styles: [],
 				scripts: [params[:action]],
-		        other_scripts: []
+		        other_scripts: [],
+		        title: "Le Chat Blue"
 		}
 	end
 	def menu_book
@@ -16,7 +17,8 @@ class WelcomeController < ApplicationController
 			styles: [params[:action]],
 			other_styles: [],
 			scripts: [params[:action]],
-			other_scripts: []
+			other_scripts: [],
+			title: "Le Chat Blue - Menu"
 		}
 	end
 end
