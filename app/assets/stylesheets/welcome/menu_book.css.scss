@@ -1,0 +1,17 @@
+#menu_container{
+	overflow-y: scroll;
+	height: inherit;
+	.menu{
+		height: 125px;
+		overflow: hidden;
+		.menu_details{
+			float: left;
+			height: inherit;
+		}
+		.menu_image{
+			float: right;
+			width: 125px;
+			height: inherit;
+		}
+	}
+}

@@ -10,7 +10,7 @@ class PizzasController < ApplicationController
 				styles: [],
 				other_styles: ["scaffolds"],
 				scripts: [],
-				other_scripts: []
+				other_scripts: ["scaffolds"]
 		}
 		@pizzas = Pizza.all
 	end
@@ -18,52 +18,52 @@ class PizzasController < ApplicationController
 	# GET /pizzas/1
 	# GET /pizzas/1.json
 	def show
-		@layout_details = {
-				controller: params[:controller],
-				action: params[:action],
-				styles: [],
-				other_styles: ["scaffolds"],
-				scripts: [],
-				other_scripts: []
-		}
+    @layout_details = {
+        controller: params[:controller],
+        action: params[:action],
+        styles: [],
+        other_styles: ["scaffolds"],
+        scripts: [],
+        other_scripts: ["scaffolds"]
+    }
 	end
 
 	# GET /pizzas/new
 	def new
-		@layout_details = {
-				controller: params[:controller],
-				action: params[:action],
-				styles: [],
-				other_styles: ["scaffolds"],
-				scripts: [],
-				other_scripts: []
-		}
+    @layout_details = {
+        controller: params[:controller],
+        action: params[:action],
+        styles: [],
+        other_styles: ["scaffolds"],
+        scripts: [],
+        other_scripts: ["scaffolds"]
+    }
 		@pizza = Pizza.new
 	end
 
 	# GET /pizzas/1/edit
 	def edit
-		@layout_details = {
-				controller: params[:controller],
-				action: params[:action],
-				styles: [],
-				other_styles: ["scaffolds"],
-				scripts: [],
-				other_scripts: []
-		}
+    @layout_details = {
+        controller: params[:controller],
+        action: params[:action],
+        styles: [],
+        other_styles: ["scaffolds"],
+        scripts: [],
+        other_scripts: ["scaffolds"]
+    }
 	end
 
 	# POST /pizzas
 	# POST /pizzas.json
 	def create
-		@layout_details = {
-				controller: params[:controller],
-				action: params[:action],
-				styles: [],
-				other_styles: ["scaffolds"],
-				scripts: [],
-				other_scripts: []
-		}
+    @layout_details = {
+        controller: params[:controller],
+        action: params[:action],
+        styles: [],
+        other_styles: ["scaffolds"],
+        scripts: [],
+        other_scripts: ["scaffolds"]
+    }
 		@pizza = Pizza.new(pizza_params)
 
 		respond_to do |format|
@@ -80,14 +80,14 @@ class PizzasController < ApplicationController
 	# PATCH/PUT /pizzas/1
 	# PATCH/PUT /pizzas/1.json
 	def update
-		@layout_details = {
-				controller: params[:controller],
-				action: params[:action],
-				styles: [],
-				other_styles: ["scaffolds"],
-				scripts: [],
-				other_scripts: []
-		}
+    @layout_details = {
+        controller: params[:controller],
+        action: params[:action],
+        styles: [],
+        other_styles: ["scaffolds"],
+        scripts: [],
+        other_scripts: ["scaffolds"]
+    }
 		respond_to do |format|
 			if @pizza.update(pizza_params)
 				format.html { redirect_to @pizza, notice: 'Pizza was successfully updated.' }
@@ -102,14 +102,14 @@ class PizzasController < ApplicationController
 	# DELETE /pizzas/1
 	# DELETE /pizzas/1.json
 	def destroy
-		@layout_details = {
-				controller: params[:controller],
-				action: params[:action],
-				styles: [],
-				other_styles: ["scaffolds"],
-				scripts: [],
-				other_scripts: []
-		}
+    @layout_details = {
+        controller: params[:controller],
+        action: params[:action],
+        styles: [],
+        other_styles: ["scaffolds"],
+        scripts: [],
+        other_scripts: ["scaffolds"]
+    }
 		@pizza.destroy
 		respond_to do |format|
 			format.html { redirect_to pizzas_url }

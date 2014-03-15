@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lechatblue</title>
+  <%#= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%#= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <link rel="icon" type="image/ico" href="<%= image_path "favicon.ico" %>"/>
+  <%= stylesheet_link_tag 'lechatblue' %>
+  <%= @layout_details.nil? ? '' : stylesheet_link_tag("#{@layout_details[:controller]}") %>
+  <% if !@layout_details.nil? %>
+      <% @layout_details[:styles].each do |style| %>
+          <%= stylesheet_link_tag "#{@layout_details[:controller]}/#{style}" %>
+      <% end %>
+      <% @layout_details[:other_styles].each do |style| %>
+          <%= stylesheet_link_tag "#{style}" %>
+      <% end %>
+  <% end %>
+  <%= javascript_include_tag "jquery-1.9.0.min" %>
+  <%= javascript_include_tag "apprise-v2" %>
+  <%= stylesheet_link_tag "apprise-v2" %>
+  <%= javascript_include_tag "lechatblue" %>
+  <%= @layout_details.nil? ? '' : javascript_include_tag("#{@layout_details[:controller]}") %>
+  <% if !@layout_details.nil? %>
+      <% @layout_details[:scripts].each do |script| %>
+          <%= javascript_include_tag "#{@layout_details[:controller]}/#{script}" %>
+      <% end %>
+      <% @layout_details[:other_scripts].each do |script| %>
+          <%= javascript_include_tag "#{script}" %>
+      <% end %>
+  <% end %>
+  <%= javascript_tag do %>
+      <% if !flash[:error].nil? %>
+          window.error_any = true
+          window.error_desc = "<span class='ubuntu black large'>"+"<%= j flash[:error] %>".replace(/&lt;/g, "<").replace(/&gt;/g, ">")+"</span>"
+      <% else %>
+          window.error_any = false
+      <% end %>
+  <% end %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    <div id="content">
+        <%= yield %>
+    </div>
+</body>
+</html>

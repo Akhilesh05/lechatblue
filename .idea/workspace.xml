@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96bfc33e-e416-4265-939a-3b3d84c8547b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/welcome/menu_book.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/pizzas.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/scaffolds.js.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pizzas/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/pizzas/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pizzas/index.html.erb" afterPath="$PROJECT_DIR$/app/views/pizzas/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lechatblue.iml" afterPath="$PROJECT_DIR$/.idea/lechatblue.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pizzas/new.html.erb" afterPath="$PROJECT_DIR$/app/views/pizzas/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/pizzas.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/pizzas.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pizzas_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pizzas_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pizzas/show.html.erb" afterPath="$PROJECT_DIR$/app/views/pizzas/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lechatblue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,64 +43,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="menu_book.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/menu_book.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="4" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1105">
+            <state line="1" column="65" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="menu_book.css.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1782" selection-end="1782" vertical-scroll-proportion="-0.27130434" vertical-offset="819" max-vertical-offset="1394">
+            <state line="12" column="22" selection-start="203" selection-end="203" vertical-scroll-proportion="0.34504792" vertical-offset="0" max-vertical-offset="626">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pizzas_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/pizzas_controller.rb">
+      <file leaf-file-name="menu_book.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/welcome/menu_book.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="33" selection-start="2472" selection-end="2472" vertical-scroll-proportion="0.0" vertical-offset="1630" max-vertical-offset="2312">
+            <state line="0" column="23" selection-start="9" selection-end="23" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="198">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scaffolds.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
+      <file leaf-file-name="welcome_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="1" selection-start="1026" selection-end="1026" vertical-scroll-proportion="-19.346153" vertical-offset="653" max-vertical-offset="1258">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pizzas.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pizzas.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="1" selection-start="206" selection-end="206" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pizza.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/pizza.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lechatblue.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="16" selection-start="1908" selection-end="1908" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="1751">
+            <state line="19" column="9" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
               <folding />
             </state>
           </provider>
@@ -111,28 +98,33 @@
         <option value="$PROJECT_DIR$/bin/rails" />
         <option value="$PROJECT_DIR$/bin/rake" />
         <option value="$PROJECT_DIR$/config/application.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee" />
         <option value="$PROJECT_DIR$/app/models/pizza.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/pizzas/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/pizzas.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/pizzas.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/pizzas/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pizzas/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pizzas/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pizzas/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/scaffolds.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/pizzas_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" />
+        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/menu_book.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/welcome/menu_book.js.coffee" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="48" />
+    <option name="y" value="-4" />
+    <option name="width" value="1319" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -230,7 +222,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pizzas" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,71 +237,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lechatblue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lechatblue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lechatblue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lechatblue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lechatblue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lechatblue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,7 +251,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Ruby" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -452,15 +386,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="48" y="-4" width="1319" height="773" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.168429" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1709804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -490,9 +424,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.168429" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -512,27 +446,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="19" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1139">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="12" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1972">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
@@ -728,105 +641,128 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="628" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/pizzas.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="16" selection-start="1908" selection-end="1908" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="1751">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pizzas/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pizzas/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pizzas/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="6" selection-start="630" selection-end="630" vertical-scroll-proportion="0.9421769" vertical-offset="41" max-vertical-offset="697">
+        <state line="5" column="42" selection-start="194" selection-end="194" vertical-scroll-proportion="-3.4615386" vertical-offset="0" max-vertical-offset="918">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pizzas/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="10" selection-start="30" selection-end="80" vertical-scroll-proportion="0.028911564" vertical-offset="0" max-vertical-offset="588">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pizzas/edit.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/scaffolds.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="10" selection-start="30" selection-end="120" vertical-scroll-proportion="0.028911564" vertical-offset="0" max-vertical-offset="588">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pizzas.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="206" selection-end="206" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pizzas_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="33" selection-start="2472" selection-end="2472" vertical-scroll-proportion="0.0" vertical-offset="1630" max-vertical-offset="2312">
+        <state line="1" column="94" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="1" selection-start="1026" selection-end="1026" vertical-scroll-proportion="-19.346153" vertical-offset="653" max-vertical-offset="1258">
+        <state line="74" column="32" selection-start="1156" selection-end="1156" vertical-scroll-proportion="-21.846153" vertical-offset="764" max-vertical-offset="1458">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pizza.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/pizzas_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="614">
+        <state line="130" column="0" selection-start="3198" selection-end="3198" vertical-scroll-proportion="0.94285715" vertical-offset="1746" max-vertical-offset="2448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pizzas/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="38" selection-start="603" selection-end="603" vertical-scroll-proportion="0.827476" vertical-offset="76" max-vertical-offset="702">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pizzas/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="46" selection-start="988" selection-end="988" vertical-scroll-proportion="0.827476" vertical-offset="148" max-vertical-offset="774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pizzas/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="34" selection-start="113" selection-end="113" vertical-scroll-proportion="0.17252396" vertical-offset="0" max-vertical-offset="626">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pizzas.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.08626198" vertical-offset="0" max-vertical-offset="626">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="17" selection-start="1840" selection-end="1840" vertical-scroll-proportion="0.21319798" vertical-offset="306" max-vertical-offset="1944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="43" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1782" selection-end="1782" vertical-scroll-proportion="-0.27130434" vertical-offset="819" max-vertical-offset="1394">
+        <state line="50" column="70" selection-start="2056" selection-end="2056" vertical-scroll-proportion="0.6954315" vertical-offset="489" max-vertical-offset="1476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="60" selection-start="138" selection-end="138" vertical-scroll-proportion="0.114285715" vertical-offset="0" max-vertical-offset="1188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/menu_book.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="65" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/menu_book.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="23" selection-start="9" selection-end="23" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="22" selection-start="203" selection-end="203" vertical-scroll-proportion="0.34504792" vertical-offset="0" max-vertical-offset="626">
           <folding />
         </state>
       </provider>
