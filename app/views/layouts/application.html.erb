@@ -4,7 +4,7 @@
 		<title><%= !@layout_details[:title].nil? ? @layout_details[:title] : "Lechatblue" %></title>
 		<%#= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
 		<%#= javascript_include_tag "application", "data-turbolinks-track" => true %>
-		<link rel="icon" type="image/ico" href="<%= asset_path "favicon2.png" %>"/>
+		<link rel="icon" type="image/png" href="<%= asset_path "favicon2.png" %>"/>
 		<%= stylesheet_link_tag 'lechatblue' %>
 		<%= @layout_details.nil? ? '' : stylesheet_link_tag("#{@layout_details[:controller]}") %>
         <% if !@layout_details.nil? %>

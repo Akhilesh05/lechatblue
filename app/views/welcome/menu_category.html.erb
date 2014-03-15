@@ -1,0 +1,11 @@
+<div id="menu_container">
+	<% @pizzas.each do |pizza| %>
+	<div class="menu" data-href="<%=  %>">
+		<div class="menu_details">
+			<div class="item_name"><%= pizza.name %></div>
+			<div class="item_description"><%= pizza.description %></div>
+		</div>
+		<div class="menu_image" style="background: url(<%= image_path "items/1.jpg" %>)"></div>
+	</div>
+	<% end %>
+</div>

@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="Rails lechatblue: development" uuid="ed8fede7-58b5-4847-83da-281c8bb420c2">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\lechatblue\db\development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails lechatblue: production" uuid="796924c0-30f6-486d-9f52-bbd90021647c">

@@ -22,6 +22,15 @@ class WelcomeController < ApplicationController
 		}
 	end
 	def menu_category
-		render text: "Ok"
+		@layout_details = {
+			controller: params[:controller],
+			action: params[:action],
+			styles: [params[:action]],
+			other_styles: [],
+			scripts: [params[:action]],
+			other_scripts: [],
+			title: "Le Chat Blue - Pizzas"
+		}
+		@pizzas = Pizza.all
 	end
 end
