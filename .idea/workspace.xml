@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96bfc33e-e416-4265-939a-3b3d84c8547b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon2.png" />
-      <change type="DELETED" beforePath="C:\lechatblue\public\favicon.ico" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/menu_book.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/menu_book.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lechatblue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +30,7 @@
       <file leaf-file-name="welcome_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="39" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="24" column="24" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -51,25 +48,20 @@
       <file leaf-file-name="menu_book.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/menu_book.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="10" selection-start="265" selection-end="265" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="425">
-              <folding />
+            <state line="1" column="63" selection-start="89" selection-end="89" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="425">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="45" selection-end="45" vertical-scroll-proportion="0.08900524" vertical-offset="0" max-vertical-offset="1394">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lechatblue.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="1938">
+            <state line="5" column="72" selection-start="208" selection-end="208" vertical-scroll-proportion="0.1388889" vertical-offset="0" max-vertical-offset="1139">
               <folding />
             </state>
           </provider>
@@ -78,7 +70,7 @@
       <file leaf-file-name="menu_book.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="0" selection-start="6944" selection-end="6944" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1530">
+            <state line="60" column="0" selection-start="6944" selection-end="6944" vertical-scroll-proportion="-15.576923" vertical-offset="615" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -114,14 +106,14 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/scaffolds.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/pizzas_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/welcome/menu_book.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/welcome/menu_book.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/menu_book.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -203,33 +195,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lechatblue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lechatblue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -690,44 +656,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="60" selection-start="138" selection-end="138" vertical-scroll-proportion="0.114285715" vertical-offset="0" max-vertical-offset="1188">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="32" selection-start="229" selection-end="229" vertical-scroll-proportion="0.22149837" vertical-offset="0" max-vertical-offset="614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="6944" selection-end="6944" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1530">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="1938">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/menu_book.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="10" selection-start="265" selection-end="265" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="39" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/menu_book.js.coffee">
@@ -737,9 +668,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.9441536" vertical-offset="3" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="20" selection-start="45" selection-end="45" vertical-scroll-proportion="0.08900524" vertical-offset="0" max-vertical-offset="1394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="0" selection-start="6944" selection-end="6944" vertical-scroll-proportion="-15.576923" vertical-offset="615" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="24" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/menu_book.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="63" selection-start="89" selection-end="89" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="425">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="72" selection-start="208" selection-end="208" vertical-scroll-proportion="0.1388889" vertical-offset="0" max-vertical-offset="1139">
           <folding />
         </state>
       </provider>

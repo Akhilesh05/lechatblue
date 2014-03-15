@@ -21,4 +21,7 @@ class WelcomeController < ApplicationController
 			title: "Le Chat Blue - Menu"
 		}
 	end
+	def menu_category
+		render text: "Ok"
+	end
 end
