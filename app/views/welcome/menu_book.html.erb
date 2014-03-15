@@ -1,6 +1,18 @@
 <div id="menu_container">
-	<div class="menu">
-		<div class="menu_details"></div>
-		<div class="menu_image"></div>
-	</div>
+    <div class="menu" data-href="/">
+        <div class="menu_details">
+            <div class="category">Pizzas</div>
+        </div>
+        <div class="menu_image" style="background: url(<%= asset_path "pizzas.png" %>)"></div>
+    </div>
+    <div class="menu main_cat" data-href="/">
+        <div class="menu_details"></div>
+        <div class="menu_image" style="background: url(<%= asset_path "pizzas.png" %>)"></div>
+    </div>
+    <div class="menu main_cat">
+        <div class="menu_details" data-href="/">
+            <div class="category">Drinks & Beverages</div>
+        </div>
+        <div class="menu_image" style="background: url(<%= asset_path "drinks.png" %>)"></div>
+    </div>
 </div>

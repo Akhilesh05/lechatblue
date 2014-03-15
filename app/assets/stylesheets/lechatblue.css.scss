@@ -30,6 +30,12 @@ body{
 	background: image_url("pizza-back______.png"), image_url("old_map.png");
 	font: 400 15px/1 "Lobster Two";
 }
+[data-href]{
+	cursor: pointer;
+	&.selected{
+		cursor: default;
+	}
+}
 #wrapper{
 	min-width: 800px;
 	width: 800px;

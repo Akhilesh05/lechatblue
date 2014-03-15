@@ -6,6 +6,6 @@ $ ->
 	if $(window).height() > 469
 		$("#left_section").height $(window).height()
 	$("#content").height $(window).height() - 205
-	$("[data-href]").click ->
+	$("[data-href]:not(.selected)").click ->
 		href = $(this).attr("data-href")
 		window.location = href

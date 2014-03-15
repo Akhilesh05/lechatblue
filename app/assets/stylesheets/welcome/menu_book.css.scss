@@ -1,12 +1,29 @@
 #menu_container{
-	overflow-y: scroll;
+	overflow-y: auto;
 	height: inherit;
 	.menu{
+		margin: 15px 0 0 0;
 		height: 125px;
-		overflow: hidden;
+		box-shadow: 0 0 10px rgba(0,0,0,1);
+		background: rgba(255,255,255,.5);
+		&:hover{
+			background: rgba(189,3,10,.5);
+			-webkit-transition: background 300ms;-moz-transition: background 300ms;-ms-transition: background 300ms;-o-transition: background 300ms;transition: background 300ms;
+		}
+		&:first-child{
+			margin: 10px 0 0 0;
+		}
+		&:last-child{
+			margin: 15px 0 10px 0;
+		}
 		.menu_details{
 			float: left;
 			height: inherit;
+			.category{
+				margin: 37px 0 0 0;
+				font: 400 50px/1 "Lobster Two";
+				text-align: center;
+			}
 		}
 		.menu_image{
 			float: right;
