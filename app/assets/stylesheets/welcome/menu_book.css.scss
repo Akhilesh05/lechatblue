@@ -7,8 +7,10 @@
 		box-shadow: 0 0 10px rgba(0,0,0,1);
 		background: rgba(255,255,255,.5);
 		&:hover{
-			background: rgba(189,3,10,.5);
-			-webkit-transition: background 300ms;-moz-transition: background 300ms;-ms-transition: background 300ms;-o-transition: background 300ms;transition: background 300ms;
+			//background: rgba(189,3,10,.5);
+			background: rgba(255,255,255,.5), rgba(108, 169, 0,.5);
+			//background: rgba(169, 169, 169, .5);
+			//-webkit-transition: background 500ms;-moz-transition: background 500ms;-ms-transition: background 500ms;-o-transition: background 500ms;transition: background 500ms;
 		}
 		&:first-child{
 			margin: 10px 0 0 0;
