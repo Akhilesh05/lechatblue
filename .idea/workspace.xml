@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96bfc33e-e416-4265-939a-3b3d84c8547b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pizzas/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/pizzas/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pizzas/index.html.erb" afterPath="$PROJECT_DIR$/app/views/pizzas/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/menu_category.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/menu_category.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pizzas_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pizzas_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pizzas/show.html.erb" afterPath="$PROJECT_DIR$/app/views/pizzas/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lechatblue.iws" />
@@ -52,10 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu_category.js.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="menu_category.js.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/menu_category.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="65" selection-start="72" selection-end="72" vertical-scroll-proportion="0.027777778" vertical-offset="0" max-vertical-offset="612">
+            <state line="1" column="65" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="2" selection-start="394" selection-end="394" vertical-scroll-proportion="0.30555555" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -133,6 +134,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/welcome/menu_category.js.coffee" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -388,11 +390,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="52" selection-start="111" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="306" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="21" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1955">
@@ -688,7 +685,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/menu_category.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="65" selection-start="72" selection-end="72" vertical-scroll-proportion="0.027777778" vertical-offset="0" max-vertical-offset="612">
+        <state line="1" column="65" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="2" selection-start="394" selection-end="394" vertical-scroll-proportion="0.30555555" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
