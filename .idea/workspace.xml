@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96bfc33e-e416-4265-939a-3b3d84c8547b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140316083823_change_confirmed_type_in_orders.rb" afterPath="$PROJECT_DIR$/db/migrate/20140316083823_change_confirmed_type_in_orders.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/create_order.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/create_order.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lechatblue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,6 +35,7 @@
               <folding>
                 <marker date="1395000817795" expanded="true" signature="24:772" placeholder="..." />
                 <marker date="1395000817795" expanded="true" signature="128:765" placeholder="..." />
+                <marker date="1395000817795" expanded="true" signature="154:752" placeholder="do ... end" />
                 <marker date="1395000817795" expanded="true" signature="255:736" placeholder="..." />
                 <marker date="1395000817795" expanded="true" signature="304:352" placeholder="..." />
                 <marker date="1395000817795" expanded="true" signature="402:717" placeholder="..." />
@@ -43,8 +47,18 @@
       <file leaf-file-name="create_order.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/create_order.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="52" selection-start="1277" selection-end="1290" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="612">
-              <folding />
+            <state line="22" column="194" selection-start="1137" selection-end="1138" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="612">
+              <folding>
+                <marker date="1395008481779" expanded="true" signature="26:1376" placeholder="..." />
+                <marker date="1395008481779" expanded="true" signature="108:1367" placeholder="do ... end" />
+                <marker date="1395008481779" expanded="true" signature="156:1355" placeholder="..." />
+                <marker date="1395008481779" expanded="true" signature="243:393" placeholder="..." />
+                <marker date="1395008481779" expanded="true" signature="410:549" placeholder="..." />
+                <marker date="1395008481779" expanded="true" signature="566:708" placeholder="..." />
+                <marker date="1395008481779" expanded="true" signature="725:862" placeholder="..." />
+                <marker date="1395008481779" expanded="true" signature="879:1172" placeholder="..." />
+                <marker date="1395008481779" expanded="true" signature="1189:1338" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,25 +66,16 @@
       <file leaf-file-name="welcome_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="9" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+            <state line="74" column="86" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20140316083823_change_confirmed_type_in_orders.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20140316083823_change_confirmed_type_in_orders.rb">
+      <file leaf-file-name="order.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/order.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.35993487" vertical-offset="0" max-vertical-offset="614">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pizza.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/pizza.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="57" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+            <state line="17" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.48247078" vertical-offset="0" max-vertical-offset="599">
               <folding />
             </state>
           </provider>
@@ -92,7 +97,12 @@
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/create_order.css.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state line="48" column="54" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-6.423077" vertical-offset="649" max-vertical-offset="1224">
-              <folding />
+              <folding>
+                <marker date="1395006307313" expanded="true" signature="17:1593" placeholder="{...}" />
+                <marker date="1395006307313" expanded="true" signature="82:1588" placeholder="{...}" />
+                <marker date="1395006307313" expanded="true" signature="89:1584" placeholder="{...}" />
+                <marker date="1395006307313" expanded="true" signature="97:1579" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +145,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/order.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/menu_category.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/welcome/place_order.js.coffee" />
@@ -145,11 +154,12 @@
         <option value="$PROJECT_DIR$/app/views/welcome/place_order.html.erb" />
         <option value="$PROJECT_DIR$/app/models/pizza.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/welcome/create_order.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/welcome/create_order.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome/create_order.css.scss" />
-        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140316083823_change_confirmed_type_in_orders.rb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/create_order.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/order.rb" />
       </list>
     </option>
   </component>
@@ -232,7 +242,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,11 +256,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,7 +271,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/rails_app" />
+    <property name="last_opened_file_path" value="C:/app/rails_app" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
@@ -609,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/order.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.4808652" vertical-offset="0" max-vertical-offset="601">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="0.36772045" vertical-offset="0" max-vertical-offset="601">
@@ -679,19 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/place_order.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="779" selection-end="779" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="391">
-          <folding>
-            <marker date="1395000817795" expanded="true" signature="24:772" placeholder="..." />
-            <marker date="1395000817795" expanded="true" signature="128:765" placeholder="..." />
-            <marker date="1395000817795" expanded="true" signature="255:736" placeholder="..." />
-            <marker date="1395000817795" expanded="true" signature="304:352" placeholder="..." />
-            <marker date="1395000817795" expanded="true" signature="402:717" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="11" selection-start="1844" selection-end="1863" vertical-scroll-proportion="0.6208696" vertical-offset="119" max-vertical-offset="2040">
@@ -699,24 +689,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/create_order.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="52" selection-start="1277" selection-end="1290" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pizza.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="57" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/create_order.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="54" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-6.423077" vertical-offset="649" max-vertical-offset="1224">
-          <folding />
+          <folding>
+            <marker date="1395006307313" expanded="true" signature="17:1593" placeholder="{...}" />
+            <marker date="1395006307313" expanded="true" signature="82:1588" placeholder="{...}" />
+            <marker date="1395006307313" expanded="true" signature="89:1584" placeholder="{...}" />
+            <marker date="1395006307313" expanded="true" signature="97:1579" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -730,16 +711,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140316083823_change_confirmed_type_in_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="9" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+        <state line="13" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140316083823_change_confirmed_type_in_orders.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/pizza.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.35993487" vertical-offset="0" max-vertical-offset="614">
+        <state line="5" column="57" selection-start="153" selection-end="153" vertical-scroll-proportion="0.13843648" vertical-offset="0" max-vertical-offset="614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/place_order.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="779" selection-end="779" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="391">
+          <folding>
+            <marker date="1395000817795" expanded="true" signature="24:772" placeholder="..." />
+            <marker date="1395000817795" expanded="true" signature="128:765" placeholder="..." />
+            <marker date="1395000817795" expanded="true" signature="154:752" placeholder="do ... end" />
+            <marker date="1395000817795" expanded="true" signature="255:736" placeholder="..." />
+            <marker date="1395000817795" expanded="true" signature="304:352" placeholder="..." />
+            <marker date="1395000817795" expanded="true" signature="402:717" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/create_order.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="194" selection-start="1137" selection-end="1138" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="612">
+          <folding>
+            <marker date="1395008481779" expanded="true" signature="26:1376" placeholder="..." />
+            <marker date="1395008481779" expanded="true" signature="108:1367" placeholder="do ... end" />
+            <marker date="1395008481779" expanded="true" signature="156:1355" placeholder="..." />
+            <marker date="1395008481779" expanded="true" signature="243:393" placeholder="..." />
+            <marker date="1395008481779" expanded="true" signature="410:549" placeholder="..." />
+            <marker date="1395008481779" expanded="true" signature="566:708" placeholder="..." />
+            <marker date="1395008481779" expanded="true" signature="725:862" placeholder="..." />
+            <marker date="1395008481779" expanded="true" signature="879:1172" placeholder="..." />
+            <marker date="1395008481779" expanded="true" signature="1189:1338" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="86" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/order.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.48247078" vertical-offset="0" max-vertical-offset="599">
           <folding />
         </state>
       </provider>

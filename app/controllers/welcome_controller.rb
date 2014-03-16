@@ -72,6 +72,6 @@ class WelcomeController < ApplicationController
 
 	private
 		def get_order_params
-			params.require(:order).permit(:name, :address, :phone, :city, :pizza_id, :pizza_size => [:s, :m, :l])
+			params.require(:order).permit :name, :address, :phone, :city, :pizza_id, :pizza_size
 		end
 end

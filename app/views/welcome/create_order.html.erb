@@ -20,7 +20,7 @@
             </tr>
             <tr>
                 <td><div><%= f.label :pizza_size %></div></td>
-                <td><div><%= f.select :pizza_size, [["small - Rs#{@pizza.get_price[:small]}", :s], ["medium - Rs#{@pizza.get_price[:medium]}", :m], ["large - Rs#{@pizza.get_price[:large]}", :l]] %></div></td>
+                <td><div><%= f.select :pizza_size, [["small - Rs#{@pizza.get_price[:small]}", 's'], ["medium - Rs#{@pizza.get_price[:medium]}", 'm'], ["large - Rs#{@pizza.get_price[:large]}", 'l']] %></div></td>
             </tr>
             <tr>
                 <td><div></div></td>
