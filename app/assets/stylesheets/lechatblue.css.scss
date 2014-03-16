@@ -25,6 +25,12 @@
 		height: 7px;
 	}
 }
+.heading{
+	color: rgba(189, 3, 10, 1);
+	font: 900 26px/1 "Niconne";
+	letter-spacing: 1px;
+	padding: 5px 10px;
+}
 body{
 	visibility: hidden;
 	background: image_url("pizza-back______.png"), image_url("old_map.png");

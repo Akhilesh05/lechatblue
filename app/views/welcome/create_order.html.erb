@@ -1,0 +1,31 @@
+<div id="create_order_div">
+    <%= form_for :order, url: place_order_path, html: {id: "create_order_form"} do |f| %>
+        <table id="create_order_table">
+            <%= f.hidden_field :pizza_id, value: params[:pizza_id] %>
+            <tr>
+                <td><div><%= f.label :name, "Your name" %></div></td>
+                <td><div><%= f.text_field :name %></div></td>
+            </tr>
+            <tr>
+                <td><div><%= f.label :phone %></div></td>
+                <td><div><%= f.text_field :phone %></div></td>
+            </tr>
+            <tr>
+                <td><div><%= f.label :address %></div></td>
+                <td><div><%= f.text_area :address %></div></td>
+            </tr>
+            <tr>
+                <td><div><%= f.label :city %></div></td>
+                <td><div><%= f.text_field :city %></div></td>
+            </tr>
+            <tr>
+                <td><div><%= f.label :pizza_size %></div></td>
+                <td><div><%= f.select :pizza_size, [["small - Rs#{@pizza.get_price[:small]}", :s], ["medium - Rs#{@pizza.get_price[:medium]}", :m], ["large - Rs#{@pizza.get_price[:large]}", :l]] %></div></td>
+            </tr>
+            <tr>
+                <td><div></div></td>
+                <td><div><%= f.submit %><button id="cancel_button">Cancel</button></div></td>
+            </tr>
+        </table>
+    <% end %>
+</div>

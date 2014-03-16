@@ -35,6 +35,9 @@
 			<% else %>
 				window.error_any = false
 			<% end %>
+            <% if @layout_details[:action] == "create_order" %>
+            window._pizzaPrice_ = "{\"small\": <%= @pizza.get_price[:small] %>, \"medium\": <%= @pizza.get_price[:medium] %>,\"large\": <%= @pizza.get_price[:large] %>}"
+            <% end %>
 		<% end %>
 		<%= csrf_meta_tags %>
 	</head>

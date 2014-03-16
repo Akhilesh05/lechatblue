@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140316083823) do
+ActiveRecord::Schema.define(version: 20140316185444) do
 
   create_table "orders", force: true do |t|
     t.integer  "pizza_id"
@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 20140316083823) do
     t.datetime "updated_at"
     t.string   "confirmation_code"
     t.boolean  "confirmed",         limit: 255
+    t.string   "client_ip"
   end
 
   create_table "pizzas", force: true do |t|
