@@ -4,8 +4,8 @@ Lechatblue::Application.routes.draw do
 	root "welcome#index"
 	get "menu-book", to: "welcome#menu_book", as: :menu_book
 	get "menu-book/:category", constraints: {category: /(pizzas|roasted-chicken|drinks)/}, to: "welcome#menu_category", as: :menu_category
-
-	get "761FB4C59368DCB0D3CF0A7C7427E86C.txt", to: "welcome#confirm_ssl"
+	match "place-order", to: "welcome#place_order", as: :place_order, via: [:get, :post]
+	#post "place-order", to: "welcome#place_order", as: :place_order
 	# The priority is based upon order of creation: first created -> highest priority.
 	# See how all your routes lay out with "rake routes".
 

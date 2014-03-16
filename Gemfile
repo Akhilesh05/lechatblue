@@ -13,6 +13,7 @@ gem 'sass-rails', '~> 4.0.0'
 
 #ClockWorkSMS API
 gem 'clockworksms'
+gem 'nokogiri'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

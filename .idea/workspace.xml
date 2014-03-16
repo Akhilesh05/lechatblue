@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96bfc33e-e416-4265-939a-3b3d84c8547b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lechatblue.iml" afterPath="$PROJECT_DIR$/.idea/lechatblue.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lechatblue.iws" />
@@ -30,16 +37,16 @@
       <file leaf-file-name="welcome_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="12" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="864">
+            <state line="1" column="43" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="6" selection-start="336" selection-end="336" vertical-scroll-proportion="0.35889572" vertical-offset="0" max-vertical-offset="1026">
+            <state line="15" column="13" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1044">
               <folding />
             </state>
           </provider>
@@ -48,16 +55,7 @@
       <file leaf-file-name="menu_category.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="25" selection-start="3040" selection-end="3040" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1548">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu_category.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/menu_category.js.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="65" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="126">
+            <state line="35" column="25" selection-start="3040" selection-end="3040" vertical-scroll-proportion="-1.3846154" vertical-offset="594" max-vertical-offset="1548">
               <folding />
             </state>
           </provider>
@@ -72,37 +70,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="place_order.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/welcome/place_order.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="61" selection-start="334" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242">
+            <state line="7" column="16" selection-start="396" selection-end="396" vertical-scroll-proportion="-4.8461537" vertical-offset="0" max-vertical-offset="252">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lechatblue.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
+      <file leaf-file-name="order.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/order.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="24" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="2052">
+            <state line="7" column="9" selection-start="394" selection-end="394" vertical-scroll-proportion="0.1978022" vertical-offset="0" max-vertical-offset="637">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu_category.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/welcome/menu_category.html.erb">
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="95" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="306">
+            <state line="4" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu_book.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="1" selection-start="7319" selection-end="7319" vertical-scroll-proportion="0.0" vertical-offset="1548" max-vertical-offset="1656">
+            <state line="56" column="126" selection-start="2465" selection-end="2465" vertical-scroll-proportion="-8.230769" vertical-offset="794" max-vertical-offset="1476">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="place_order.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/place_order.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="place_order.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/place_order.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
               <folding />
             </state>
           </provider>
@@ -138,7 +154,6 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee" />
         <option value="$PROJECT_DIR$/db/migrate/20140315143159_change_price_type_in_pizzas.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/menu_book.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" />
         <option value="$PROJECT_DIR$/app/views/pizzas/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/pizzas_controller.rb" />
@@ -149,9 +164,14 @@
         <option value="$PROJECT_DIR$/app/views/welcome/menu_category.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/db/migrate/20140316083823_change_confirmed_type_in_orders.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/place_order.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/order.rb" />
       </list>
     </option>
   </component>
@@ -168,10 +188,13 @@
           <State>
             <id />
           </State>
+          <State>
+            <id>Rails</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>CoffeeScript</id>
+            <id>Rails3Deprecated</id>
           </State>
         </selected-state>
       </profile-state>
@@ -260,7 +283,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/rails_app" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
@@ -439,69 +462,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="1" selection-start="7281" selection-end="7281" vertical-scroll-proportion="0.0" vertical-offset="1512" max-vertical-offset="1620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="21" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="1955">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1134" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="198">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/index.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/index.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="26" selection-start="1374" selection-end="1374" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="1026" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1134" />
@@ -626,11 +586,6 @@
         <state line="8" column="32" selection-start="229" selection-end="229" vertical-scroll-proportion="0.22149837" vertical-offset="0" max-vertical-offset="614" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="316" selection-end="316" vertical-scroll-proportion="-1.3076923" vertical-offset="68" max-vertical-offset="1394" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/menu_book.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="7" selection-start="475" selection-end="475" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="425" />
@@ -682,16 +637,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/menu_category.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="25" selection-start="3040" selection-end="3040" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="1548">
+        <state line="1" column="65" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/menu_category.js.coffee">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140316083710_add_confirmed_to_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="65" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140316082919_create_orders.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.38650307" vertical-offset="0" max-vertical-offset="652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140316083823_change_confirmed_type_in_orders.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="45" selection-start="115" selection-end="115" vertical-scroll-proportion="0.055214725" vertical-offset="0" max-vertical-offset="652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140315143159_change_price_type_in_pizzas.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="72" selection-end="110" vertical-scroll-proportion="0.055214725" vertical-offset="0" max-vertical-offset="652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/place_order.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/place_order.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="88" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/lib/gems/1.9.1/gems/rack-1.5.2/lib/rack/auth/digest/md5.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="12" selection-start="590" selection-end="590" vertical-scroll-proportion="0.3323077" vertical-offset="90" max-vertical-offset="2430">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/place_order.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="396" selection-end="396" vertical-scroll-proportion="-4.8461537" vertical-offset="0" max-vertical-offset="252">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="126" selection-start="2465" selection-end="2465" vertical-scroll-proportion="-8.230769" vertical-offset="794" max-vertical-offset="1476">
           <folding />
         </state>
       </provider>
@@ -703,23 +728,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="61" selection-start="334" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="12" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="864">
+        <state line="35" column="25" selection-start="3040" selection-end="3040" vertical-scroll-proportion="-1.3846154" vertical-offset="594" max-vertical-offset="1548">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="336" selection-end="336" vertical-scroll-proportion="0.35889572" vertical-offset="0" max-vertical-offset="1026">
+        <state line="15" column="13" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1044">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="43" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/order.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="9" selection-start="394" selection-end="394" vertical-scroll-proportion="0.1978022" vertical-offset="0" max-vertical-offset="637">
           <folding />
         </state>
       </provider>

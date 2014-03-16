@@ -11,7 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140315192605) do
+ActiveRecord::Schema.define(version: 20140316083823) do
+
+  create_table "orders", force: true do |t|
+    t.integer  "pizza_id"
+    t.string   "name"
+    t.integer  "phone"
+    t.string   "address"
+    t.string   "city"
+    t.string   "pizza_size"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "confirmation_code"
+    t.boolean  "confirmed",         limit: 255
+  end
 
   create_table "pizzas", force: true do |t|
     t.string   "name"
