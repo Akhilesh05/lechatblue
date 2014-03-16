@@ -9,14 +9,14 @@ class ApplicationController < ActionController::Base
 	end
 
 	def redirect_to_lechatbluetk
-		redirect_to "http://www.lechatbleu.tk" + request.fullpath unless request.host == "www.lechatbleu.tk" || request.host == "lechatbleu.tk"
+		redirect_to "http://www.lechatbleu.tk" + request.fullpath unless request.host == "www.lechatbleu.tk" || request.host == "lechatbleu.tk" || request.local?
 	end
 
 	def redirect_to_herokuapp
-		redirect_to "http://lechatbleu.herokuapp.com" + request.fullpath unless request.host == "lechatbleu.herokuapp.com"
+		redirect_to "http://lechatbleu.herokuapp.com" + request.fullpath unless request.host == "lechatbleu.herokuapp.com" || request.local?
 	end
 
 	def redirect_to_herokuapp_with_ssl
-		redirect_to "https://lechatbleu.herokuapp.com" + request.fullpath unless request.host == "lechatbleu.herokuapp.com"
+		redirect_to "https://lechatbleu.herokuapp.com" + request.fullpath unless request.host == "lechatbleu.herokuapp.com" || request.local?
 	end
 end
