@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96bfc33e-e416-4265-939a-3b3d84c8547b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/menu_category.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/menu_category.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/order.rb" afterPath="$PROJECT_DIR$/app/models/order.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/pizza.rb" afterPath="$PROJECT_DIR$/app/models/pizza.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/welcome/place_order.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/welcome/place_order.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/place_order.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/place_order.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/welcome/place_order.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/welcome/place_order.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lechatblue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="welcome_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="13" selection-start="1435" selection-end="1435" vertical-scroll-proportion="0.0" vertical-offset="729" max-vertical-offset="1411">
+            <state line="1" column="81" selection-start="126" selection-end="126" vertical-scroll-proportion="0.027687296" vertical-offset="0" max-vertical-offset="1411">
               <folding />
             </state>
           </provider>
@@ -89,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_order.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="create_order.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/create_order.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="54" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.29043478" vertical-offset="649" max-vertical-offset="1224">
+            <state line="48" column="54" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-6.423077" vertical-offset="649" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
@@ -147,10 +134,10 @@
         <option value="$PROJECT_DIR$/app/views/welcome/place_order.html.erb" />
         <option value="$PROJECT_DIR$/app/models/pizza.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/create_order.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/welcome/create_order.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome/create_order.css.scss" />
+        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
       </list>
     </option>
   </component>
@@ -734,9 +721,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/pizza.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="13" selection-start="1435" selection-end="1435" vertical-scroll-proportion="0.0" vertical-offset="729" max-vertical-offset="1411">
+        <state line="5" column="57" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/create_order.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="54" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-6.423077" vertical-offset="649" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
@@ -748,16 +742,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pizza.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="57" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/create_order.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="54" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.29043478" vertical-offset="649" max-vertical-offset="1224">
+        <state line="1" column="81" selection-start="126" selection-end="126" vertical-scroll-proportion="0.027687296" vertical-offset="0" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>
