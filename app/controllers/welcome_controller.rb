@@ -33,4 +33,10 @@ class WelcomeController < ApplicationController
 		}
 		@pizzas = Pizza.all
 	end
+	def confirm_ssl
+		render text: <<EOS
+DE59E12BC4531AA023AF45891B7D167FE28ABB2D
+comodoca.com
+EOS
+	end
 end
