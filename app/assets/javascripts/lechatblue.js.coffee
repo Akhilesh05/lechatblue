@@ -18,7 +18,7 @@ $ ->
 	apprise_options =
 		buttons:
 			confirm:
-				text: '<span class="large lobster_two">Ah Okay</span>'
+				text: '<span class="large lobster_two">Okay</span>'
 				action: -> Apprise('close')
 
 	if window._errorAny_
