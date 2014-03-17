@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96bfc33e-e416-4265-939a-3b3d84c8547b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/create_order.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/create_order.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/welcome/create_order.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/welcome/create_order.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_book.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/place_order.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/place_order.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
-    </list>
+    <list default="true" id="96bfc33e-e416-4265-939a-3b3d84c8547b" name="Default" comment="" />
     <ignored path="lechatblue.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,10 +48,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_order.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="create_order.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/create_order.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="45" selection-start="309" selection-end="309" vertical-scroll-proportion="0.17801048" vertical-offset="0" max-vertical-offset="765">
+            <state line="29" column="51" selection-start="1236" selection-end="1236" vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20140317113110_change_pizza_id_type_in_orders.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20140317113110_change_pizza_id_type_in_orders.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="47" selection-start="115" selection-end="115" vertical-scroll-proportion="0.055555556" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -169,6 +167,7 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/welcome/create_order.js.coffee" />
         <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/create_order.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140317113110_change_pizza_id_type_in_orders.rb" />
       </list>
     </option>
   </component>
@@ -459,11 +458,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/index.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="0" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="1026" />
@@ -778,7 +772,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/create_order.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="45" selection-start="309" selection-end="309" vertical-scroll-proportion="0.17801048" vertical-offset="0" max-vertical-offset="765">
+        <state line="29" column="51" selection-start="1236" selection-end="1236" vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140317113110_change_pizza_id_type_in_orders.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="47" selection-start="115" selection-end="115" vertical-scroll-proportion="0.055555556" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
