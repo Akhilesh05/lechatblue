@@ -55,9 +55,13 @@ class WelcomeController < ApplicationController
 			@new_order.client_ip = request.remote_ip
 			@new_order.pizza_id = params.require(:order)[:pizza_id].values.to_a
 			@new_order.pizza_size = params.require(:order)[:pizza_size].values.to_a
-			@new_order.save
-			Order.find(@new_order.id).send_confirmation_code
-			render text: params.require(:order)
+			if @new_order.save
+				Order.find(@new_order.id).send_confirmation_code
+				render text: "Message sent :P"
+			else
+				flash[:error] = @new_order.errors.full_messages.join "<br />"
+				redirect_to create_order_path
+			end
 		elsif !params[:pizza_id].nil?
 			if session[:pizza_ids].nil?
 				session[:pizza_ids] = [params[:pizza_id]]

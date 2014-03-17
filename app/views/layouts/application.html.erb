@@ -30,10 +30,10 @@
         <% end %>
 		<%= javascript_tag do %>
 			<% if !flash[:error].nil? %>
-				window.error_any = true
-				window.error_desc = "<span class='ubuntu black large'>"+"<%= j flash[:error] %>".replace(/&lt;/g, "<").replace(/&gt;/g, ">")+"</span>"
+				window._errorAny_ = true
+				window._errorDetails_ = "<span>"+"<%= j flash[:error] %>".replace(/&lt;/g, "<").replace(/&gt;/g, ">")+"</span>"
 			<% else %>
-				window.error_any = false
+				window._errorAny_ = false
 			<% end %>
 		<% end %>
 		<%= csrf_meta_tags %>

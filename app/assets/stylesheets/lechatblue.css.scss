@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Niconne|Ubuntu:400,700,700italic|Lobster+Two:400,700italic,700|Yeseva+One|Kotta+One);
+@import url(https://fonts.googleapis.com/css?family=Niconne|Lobster+Two:400,700italic,700|Kotta+One);
 *{
 	margin: 0;
 	padding: 0;
@@ -25,11 +25,54 @@
 		height: 7px;
 	}
 }
+.bold{
+	font-weight: bold;
+}
+.niconne{
+	font-family: "Niconne" !important;
+	line-height: 1;
+}
+.lobster_two{
+	font-family: "Lobster Two" !important;
+	line-height: 1;
+}
+.kotta_one{
+	font-family: "Kotta One" !important;
+	line-height: 1;
+}
+.x-small{
+	font-size: 12px !important;
+}
+.small{
+	font-size: 14px !important;
+}
+.medium{
+	font-size: 16px !important;
+}
+.large{
+	font-size: 18px !important;
+}
+.x-large{
+	font-size: 20px !important;
+}
+.x-x-large{
+	font-size: 22px !important;
+}
 .heading{
 	color: rgba(189, 3, 10, 1);
 	font: 900 26px/1 "Niconne";
 	letter-spacing: 1px;
 	padding: 5px 10px;
+}
+.apprise{
+	@extend .kotta_one;
+	@extend .x-x-large;
+	z-index: 999;
+	line-height: 1.2;
+}
+.apprise-overlay{
+	z-index: 998;
+	opacity: .85 !important;
 }
 a{
 	color: rgb(83, 152, 0);

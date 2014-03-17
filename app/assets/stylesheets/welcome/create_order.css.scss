@@ -2,11 +2,13 @@
 	padding: 10px;
 	#create_order_form{
 		table#create_order_table{
+			border-spacing: 0;
 			tr{
 				td{
 					&:first-child{
 						div{
 							text-align: right;
+							max-width: 146px;
 						}
 					}
 					div{
@@ -14,6 +16,7 @@
 						font: 400 20px/1 "Niconne";
 						padding: 5px 10px;
 						input[type=text], textarea{
+							background: rgba(255,255,255,0.5);
 							width: 200px;
 							color: rgba(189, 3, 10, 1);
 							border: solid 1px rgba(189, 3, 10, 1);
@@ -27,8 +30,10 @@
 						textarea{
 							height: 50px;
 							max-height: 100px;
+							max-width: 200px;
 						}
 						select{
+							background: rgba(255,255,255,0.5);
 							color: rgba(189, 3, 10, 1);
 							width: 222px;
 							border: solid 1px rgba(189, 3, 10, 1);
@@ -46,7 +51,6 @@
 							border: none;
 							color: #fff;
 							border-radius: 10px;
-							font: 900 16px/1 'Ubuntu';
 							top: 0;
 							box-shadow: 0 10px 0 rgba(189, 3, 10, 1), 0 10px 10px rgba(0, 0, 0, 1);
 							&:active{
