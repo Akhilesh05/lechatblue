@@ -53,8 +53,8 @@ class WelcomeController < ApplicationController
 		if request.post?
 			@new_order = Order.new get_order_params
 			@new_order.client_ip = request.remote_ip
-			@new_order.pizza_id = params.require(:order)[:pizza_id].values.to_a.join(";")
-			@new_order.pizza_size = params.require(:order)[:pizza_size].values.to_a.join(";")
+			@new_order.pizza_id = params.require(:order)[:pizza_id].values.to_a
+			@new_order.pizza_size = params.require(:order)[:pizza_size].values.to_a
 			@new_order.save
 			Order.find(@new_order.id).send_confirmation_code
 			render text: params.require(:order)
@@ -70,6 +70,9 @@ class WelcomeController < ApplicationController
 		elsif params[:cancel]
 			session[:pizza_ids] = nil
 			redirect_to place_order_path
+		elsif params[:remove_pizza]
+			session[:pizza_ids].delete_at(session[:pizza_ids].index params[:id] )
+			render nothing: true
 		else
 			@layout_details = {
 				controller: params[:controller],
@@ -80,7 +83,7 @@ class WelcomeController < ApplicationController
 				other_scripts: [],
 				title: "Le Chat Blue - Order Now"
 			}
-			#render text: session[:pizza_ids].to_s
+			#render text: Order.find(37).pizza_id[0]
 		end
 	end
 

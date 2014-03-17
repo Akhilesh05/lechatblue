@@ -14,7 +14,7 @@
             <tr>
                 <td><div><%= f.label :phone %></div></td>
                 <td><div><%= f.text_field :phone %></div></td>
-                <td><div></div></td>
+                <td><div>8 digit phone number</div></td>
             </tr>
             <tr>
                 <td><div><%= f.label :address %></div></td>
@@ -33,7 +33,7 @@
             <tr class="pizza_size" data-num="<%= i %>">
                 <td><div><%= pizza.name %><br /><%= f.label :pizza_size %></div></td>
                 <td><div><%= f.select "pizza_size[#{i}]", [["small - Rs#{pizza.get_price[:small]}", 's'], ["medium - Rs#{pizza.get_price[:medium]}", 'm'], ["large - Rs#{pizza.get_price[:large]}", 'l']], {}, {id: "order_pizza_size_#{i}"} %></div></td>
-                <td><div></div></td>
+                <td><div><a class="remove" href="<%= remove_pizza_path pizza.id %>" data-num="<%= i %>"></a></div></td>
             </tr>
             <% end %>
             <tr>
@@ -43,7 +43,7 @@
             </tr>
             <tr>
                 <td><div></div></td>
-                <td><div><%= f.submit %><button id="cancel_button">Cancel</button></div></td>
+                <td><div><%= f.submit %><button id="cancel_button">Discard</button></div></td>
                 <td><div></div></td>
             </tr>
         </table>

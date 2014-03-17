@@ -4,19 +4,19 @@ removeClick = (e, t) ->
 	num = self.attr "data-num"
 	$("tr[data-num=\"" + num + "\"]").remove()
 	$("#order_pizza_id_" + num).remove()
+	$.get(self.attr "href" )
 	updateRemove()
 
 updateRemove = ->
 	if $(".pizza_size").length > 1
-		$(".pizza_size").each ->
-			num = $(this).attr "data-num"
-			$($($(this).children()[2]).children()[0]).html "<a href=\"\" class=\"remove\" data-num=\"" + num + "\">Remove this pizza</a>"
-			$(".remove").on "click", (event) ->
-				removeClick event, this
+		$(".remove").each ->
+			$(this).html "Remove this pizza"
 	else
-		$($($(".pizza_size").children()[2]).children()[0]).html ""
+		$(".remove").html ""
 
 $ ->
+	$(".remove").click (event) ->
+		removeClick event, this
 	#pizzaPrice = $.parseJSON window._pizzaPrice_
 	$("#cancel_button").click (event) ->
 		event.preventDefault()

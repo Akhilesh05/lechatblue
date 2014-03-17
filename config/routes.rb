@@ -7,6 +7,7 @@ Lechatblue::Application.routes.draw do
 	get "place-order", to: "welcome#place_order", as: :place_order
 	match "create-order(/:pizza_id)", constraints: {pizza_id: /[0-9]+/}, to: "welcome#create_order", as: :create_order, via: [:get, :post]
 	get "create-order/cancel", to: "welcome#create_order", cancel: true
+	get "create-order/remove-pizza/:id", to: "welcome#create_order", remove_pizza: true, as: :remove_pizza
 	#post "place-order", to: "welcome#place_order", as: :place_order
 	# The priority is based upon order of creation: first created -> highest priority.
 	# See how all your routes lay out with "rake routes".
