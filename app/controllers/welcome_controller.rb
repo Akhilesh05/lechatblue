@@ -1,6 +1,6 @@
 class WelcomeController < ApplicationController
-	before_action :redirect_to_lechatbluetk, except: [:place_order, :create_order]
-	before_action :redirect_to_herokuapp_with_ssl, only: [:place_order, :create_order]
+	before_action :redirect_to_lechatbluetk, except: [:create_order]
+	before_action :redirect_to_herokuapp_with_ssl, only: [:create_order]
 
 	def index
 		@layout_details = {
