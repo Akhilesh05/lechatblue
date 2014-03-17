@@ -51,18 +51,20 @@ class WelcomeController < ApplicationController
 
 	def create_order
 		if request.post?
-#			@new_order = Order.new get_order_params
-#			@new_order.client_ip = request.remote_ip
-#			@new_order.save
-#			Order.find(@new_order.id).send_confirmation_code
-			render text: get_order_params
+			@new_order = Order.new get_order_params
+			@new_order.client_ip = request.remote_ip
+			@new_order.pizza_id = params.require(:order)[:pizza_id].values.to_a.join(";")
+			@new_order.pizza_size = params.require(:order)[:pizza_size].values.to_a.join(";")
+			@new_order.save
+			Order.find(@new_order.id).send_confirmation_code
+			render text: params.require(:order)
 		elsif !params[:pizza_id].nil?
 			if session[:pizza_ids].nil?
 				session[:pizza_ids] = [params[:pizza_id]]
 			else
-				if ! session[:pizza_ids].include? params[:pizza_id]
+				#if ! session[:pizza_ids].include? params[:pizza_id]
 					session[:pizza_ids] << params[:pizza_id]
-				end
+				#end
 			end
 			redirect_to create_order_path
 		elsif params[:cancel]
@@ -84,6 +86,6 @@ class WelcomeController < ApplicationController
 
 	private
 		def get_order_params
-			params.require(:order).permit :name, :address, :phone, :city, :pizza_id, pizza_id: ["0", "1", "2"], pizza_size: ["0", "1", "2"]
+			params.require(:order).permit :name, :address, :phone, :city
 		end
 end

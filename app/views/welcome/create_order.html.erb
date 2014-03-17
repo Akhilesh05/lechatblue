@@ -9,31 +9,42 @@
             <tr>
                 <td><div><%= f.label :name, "Your name" %></div></td>
                 <td><div><%= f.text_field :name %></div></td>
+                <td><div></div></td>
             </tr>
             <tr>
                 <td><div><%= f.label :phone %></div></td>
                 <td><div><%= f.text_field :phone %></div></td>
+                <td><div></div></td>
             </tr>
             <tr>
                 <td><div><%= f.label :address %></div></td>
                 <td><div><%= f.text_area :address %></div></td>
+                <td><div></div></td>
             </tr>
             <tr>
                 <td><div><%= f.label :city %></div></td>
                 <td><div><%= f.text_field :city %></div></td>
+                <td><div></div></td>
             </tr>
             <% i = -1 %>
             <% session[:pizza_ids].each do |pizza_id| %>
             <% pizza = Pizza.find pizza_id %>
             <% i+=1 %>
-            <tr>
-                <td><div><%= f.label :pizza_size %></div></td>
-                <td><div><%= f.select "pizza_size[#{pizza.id}]", [["small - Rs#{pizza.get_price[:small]}", 's'], ["medium - Rs#{pizza.get_price[:medium]}", 'm'], ["large - Rs#{pizza.get_price[:large]}", 'l']], {}, {id: "order_pizza_size_#{i}"} %></div></td>
+            <tr class="pizza_size" data-num="<%= i %>">
+                <td><div><%= pizza.name %><br /><%= f.label :pizza_size %></div></td>
+                <td><div><%= f.select "pizza_size[#{i}]", [["small - Rs#{pizza.get_price[:small]}", 's'], ["medium - Rs#{pizza.get_price[:medium]}", 'm'], ["large - Rs#{pizza.get_price[:large]}", 'l']], {}, {id: "order_pizza_size_#{i}"} %></div></td>
+                <td><div></div></td>
             </tr>
             <% end %>
             <tr>
                 <td><div></div></td>
+                <td><div><a href="<%= place_order_path %>">Add more pizza to this order</a></div></td>
+                <td><div></div></td>
+            </tr>
+            <tr>
+                <td><div></div></td>
                 <td><div><%= f.submit %><button id="cancel_button">Cancel</button></div></td>
+                <td><div></div></td>
             </tr>
         </table>
     <% end %>
