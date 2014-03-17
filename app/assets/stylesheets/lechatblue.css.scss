@@ -111,5 +111,9 @@ body{
 			background: image_url("cover.jpg");
 			height: 200px;
 		}
+		#content{
+			overflow-y: auto;
+			min-height: 264px;
+		}
 	}
 }

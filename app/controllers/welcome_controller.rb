@@ -37,12 +37,37 @@ class WelcomeController < ApplicationController
 		@pizzas = Pizza.all
 	end
 	def place_order
+		@layout_details = {
+			controller: params[:controller],
+			action: params[:action],
+			styles: [params[:action]],
+			other_styles: [],
+			scripts: [params[:action]],
+			other_scripts: [],
+			title: "Le Chat Blue - Order Now"
+		}
+		@pizzas = Pizza.all
+	end
+
+	def create_order
 		if request.post?
-			@new_order = Order.new get_order_params
-			@new_order.client_ip = request.remote_ip
-			@new_order.save
-			Order.find(@new_order.id).send_confirmation_code
-			render text: get_order_params.to_s
+#			@new_order = Order.new get_order_params
+#			@new_order.client_ip = request.remote_ip
+#			@new_order.save
+#			Order.find(@new_order.id).send_confirmation_code
+			render text: get_order_params
+		elsif !params[:pizza_id].nil?
+			if session[:pizza_ids].nil?
+				session[:pizza_ids] = [params[:pizza_id]]
+			else
+				if ! session[:pizza_ids].include? params[:pizza_id]
+					session[:pizza_ids] << params[:pizza_id]
+				end
+			end
+			redirect_to create_order_path
+		elsif params[:cancel]
+			session[:pizza_ids] = nil
+			redirect_to place_order_path
 		else
 			@layout_details = {
 				controller: params[:controller],
@@ -53,25 +78,12 @@ class WelcomeController < ApplicationController
 				other_scripts: [],
 				title: "Le Chat Blue - Order Now"
 			}
-			@pizzas = Pizza.all
+			#render text: session[:pizza_ids].to_s
 		end
-	end
-
-	def create_order
-		@layout_details = {
-			controller: params[:controller],
-			action: params[:action],
-			styles: [params[:action]],
-			other_styles: [],
-			scripts: [params[:action]],
-			other_scripts: [],
-			title: "Le Chat Blue - Order Now"
-		}
-		@pizza = Pizza.find(params[:pizza_id])
 	end
 
 	private
 		def get_order_params
-			params.require(:order).permit :name, :address, :phone, :city, :pizza_id, :pizza_size
+			params.require(:order).permit :name, :address, :phone, :city, :pizza_id, pizza_id: ["0", "1", "2"], pizza_size: ["0", "1", "2"]
 		end
 end

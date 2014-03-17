@@ -2,7 +2,7 @@
     <div class="heading" id="title">Choose the pizza you wish to order...</div>
     <div id="menu_div">
         <% @pizzas.each do |pizza| %>
-            <div class="menu" data-href="<%= create_order_path pizza.id, pizza.name %>">
+            <div class="menu" data-href="<%= create_order_path pizza.id %>">
                 <div class="menu_image" style="background: url(<%= image_path "items/1.jpg" %>)"></div>
                 <div class="menu_details">
                     <div class="item_name"><%= pizza.name %></div>
