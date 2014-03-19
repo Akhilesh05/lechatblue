@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140317113110) do
+ActiveRecord::Schema.define(version: 20140319060803) do
 
   create_table "orders", force: true do |t|
     t.string   "pizza_id"
@@ -37,6 +37,17 @@ ActiveRecord::Schema.define(version: 20140317113110) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.boolean  "veg"
+  end
+
+  create_table "roasted_chickens", force: true do |t|
+    t.string   "name"
+    t.text     "ingredients"
+    t.text     "description"
+    t.float    "price"
+    t.boolean  "available"
+    t.string   "image"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end
