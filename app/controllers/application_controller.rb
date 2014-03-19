@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
 		#redirect_to protocol: "https://" unless (request.ssl? || request.local?)
 	end
 
-	def redirect_to_lechatbluetk
+	def redirect_to_lechatbleutk
 		redirect_to "http://www.lechatbleu.tk" + request.fullpath unless request.host == "www.lechatbleu.tk" || request.host == "lechatbleu.tk" || request.local?
 	end
 

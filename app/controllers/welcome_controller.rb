@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
-	before_action :redirect_to_lechatbluetk, except: [:create_order]
+	before_action :redirect_to_lechatbleutk, except: [:create_order]
 	before_action :redirect_to_herokuapp_with_ssl, only: [:create_order]
 
 	def index
@@ -10,7 +10,7 @@ class WelcomeController < ApplicationController
 				other_styles: [],
 				scripts: [params[:action]],
 		        other_scripts: [],
-		        title: "Le Chat Blue"
+		        title: "Le Chat Bleu"
 		}
 	end
 	def menu_book
@@ -21,7 +21,7 @@ class WelcomeController < ApplicationController
 			other_styles: [],
 			scripts: [params[:action]],
 			other_scripts: [],
-			title: "Le Chat Blue - Menu"
+			title: "Le Chat Bleu - Menu"
 		}
 	end
 	def menu_category
@@ -32,7 +32,7 @@ class WelcomeController < ApplicationController
 			other_styles: [],
 			scripts: [params[:action]],
 			other_scripts: [],
-			title: "Le Chat Blue - Pizzas"
+			title: "Le Chat Bleu - Pizzas"
 		}
 		@pizzas = Pizza.all
 	end
@@ -44,7 +44,7 @@ class WelcomeController < ApplicationController
 			other_styles: [],
 			scripts: [params[:action]],
 			other_scripts: [],
-			title: "Le Chat Blue - Order Now"
+			title: "Le Chat Bleu - Order Now"
 		}
 		@pizzas = Pizza.all
 	end
@@ -85,7 +85,7 @@ class WelcomeController < ApplicationController
 				other_styles: [],
 				scripts: [params[:action]],
 				other_scripts: [],
-				title: "Le Chat Blue - Order Now"
+				title: "Le Chat Bleu - Order Now"
 			}
 			#render text: Order.find(37).pizza_id[0]
 		end
