@@ -57,7 +57,7 @@ class WelcomeController < ApplicationController
 			@new_order.pizza_size = params.require(:order)[:pizza_size].values.to_a
 			if @new_order.save
 				Order.find(@new_order.id).send_confirmation_code
-				render text: "Message sent :P"
+				redirect_to confirm_order_path
 			else
 				flash[:error] = @new_order.errors.full_messages.join "<br />"
 				redirect_to create_order_path
