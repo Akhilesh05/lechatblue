@@ -14,7 +14,7 @@ class Order < ActiveRecord::Base
 		api = Clockwork::API.new 'ed6b6375448b8925b9f2739c10c103e71d78f231'
 		message = api.messages.build :to => "230#{self.phone}", :content => "Your confirmation code is: #{self.confirmation_code}\nPlease confirm your order on http://lechatbleu.tk/confirm-order.", :from => "LeChatBleu"
 		response = message.deliver
-		self.msg_id = response.message_id
+		self.msg_id = "#{response.message_id}"
 		self.save
 	end
 
