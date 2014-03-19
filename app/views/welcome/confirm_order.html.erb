@@ -1,0 +1,20 @@
+<div id="confirm_order_div">
+    <% if @return.nil? %>
+    <%= form_for :confirm_order, url: confirm_order_path, html: {id: "confirm_order_form"} do |f| %>
+        <table id="confirm_order_table" class="table">
+            <tr>
+                <td><div><%= f.label :confirmation_code %></div></td>
+                <td><div><%= f.text_field :confirmation_code %></div></td>
+                <td><div></div></td>
+            </tr>
+            <tr>
+                <td><div></div></td>
+                <td><div><%= f.submit "Confirm order", class: "kotta_one bold medium" %></div></td>
+                <td><div></div></td>
+            </tr>
+        </table>
+    <% end %>
+    <% else %>
+    <div class="x-x-large niconne"><%= @return %></div>
+    <% end %>
+</div>

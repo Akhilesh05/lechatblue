@@ -1,0 +1,15 @@
+#confirm_order_div{
+	padding: 10px;
+	table#confirm_order_div{
+		border-spacing: 0;
+		tr{
+			td{
+				&:first-child{
+					div{
+						max-width: 150px;
+					}
+				}
+			}
+		}
+	}
+}

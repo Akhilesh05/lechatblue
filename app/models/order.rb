@@ -16,6 +16,19 @@ class Order < ActiveRecord::Base
 		response = message.deliver
 	end
 
+	def alert_admin
+		api = Clockwork::API.new 'ed6b6375448b8925b9f2739c10c103e71d78f231'
+		order_description = ""
+		(0..(self.pizza_id.length-1)).each do |i|
+			size = self.pizza_size[i] == "s" ? "Small" : self.pizza_size[i] == "m" ? "Medium" : "Large"
+			pizza_name = Pizza.find(self.pizza_id[i].to_i).name
+			order_description += "\n#{self.pizza_id[i]} - #{pizza_name} - #{size}"
+		end
+		message_description = "An online order has been made:-#{order_description}"
+		message = api.messages.build :to => "23054770162", :content => message_description, :from => "LeChatBleu"
+		response = message.deliver
+	end
+
 	private
 		def init
 			self.confirmed ||= false

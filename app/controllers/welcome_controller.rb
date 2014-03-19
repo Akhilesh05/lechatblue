@@ -77,7 +77,7 @@ class WelcomeController < ApplicationController
 		elsif params[:remove_pizza]
 			session[:pizza_ids].delete_at(session[:pizza_ids].index params[:id] )
 			render nothing: true
-		else
+		elsif request.get?
 			@layout_details = {
 				controller: params[:controller],
 				action: params[:action],
@@ -88,6 +88,46 @@ class WelcomeController < ApplicationController
 				title: "Le Chat Bleu - Order Now"
 			}
 			#render text: Order.find(37).pizza_id[0]
+		end
+	end
+
+	def confirm_order
+		if request.get?
+			@layout_details = {
+				controller: params[:controller],
+				action: params[:action],
+				styles: [params[:action]],
+				other_styles: [],
+				scripts: [params[:action]],
+				other_scripts: [],
+				title: "Le Chat Bleu - Confirm order"
+			}
+		elsif request.post?
+			@layout_details = {
+				controller: params[:controller],
+				action: params[:action],
+				styles: [params[:action]],
+				other_styles: [],
+				scripts: [params[:action]],
+				other_scripts: [],
+				title: "Le Chat Bleu - Confirm order"
+			}
+			@order = Order.find_by(confirmation_code: params[:confirm_order][:confirmation_code])
+			if !@order.nil?
+				if @order.confirmed
+					@return = "Order is already confirmed."
+				else
+					@order.confirmed = true
+					if @order.save
+						@order.alert_admin
+						@return = "Your order has been confirmed"
+					else
+						@return = "Unknown error occurred :("
+					end
+				end
+			else
+				@return = "Order not found. Cross check your confirmation code."
+			end
 		end
 	end
 
