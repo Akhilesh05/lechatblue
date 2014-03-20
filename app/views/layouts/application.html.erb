@@ -29,12 +29,18 @@
             <% end %>
         <% end %>
 		<%= javascript_tag do %>
-			<% if !flash[:error].nil? %>
-				window._errorAny_ = true
-				window._errorDetails_ = "<span>"+"<%= j flash[:error] %>".replace(/&lt;/g, "<").replace(/&gt;/g, ">")+"</span>"
-			<% else %>
-				window._errorAny_ = false
-			<% end %>
+            <% if !flash[:error].nil? %>
+                window._errorAny_ = true
+                window._errorDetails_ = "<span>"+"<%= j flash[:error] %>".replace(/&lt;/g, "<").replace(/&gt;/g, ">")+"</span>"
+            <% else %>
+                window._errorAny_ = false
+            <% end %>
+            <% if !flash[:alert].nil? %>
+                window._alertAny_ = true
+                window._alertDetails_ = "<span>"+"<%= j flash[:alert] %>".replace(/&lt;/g, "<").replace(/&gt;/g, ">")+"</span>"
+            <% else %>
+                window._alertAny_ = false
+            <% end %>
 		<% end %>
 		<%= csrf_meta_tags %>
 	</head>

@@ -8,6 +8,7 @@ Lechatblue::Application.routes.draw do
 	get "create-order/cancel", to: "welcome#create_order", cancel: true
 	get "create-order/remove-pizza/:id", to: "welcome#create_order", remove_pizza: true, as: :remove_pizza
 	match "confirm-order", to: "welcome#confirm_order", as: :confirm_order, via: [:get, :post]
+	get "confirm-order/resend-confirmation-code", as: :resend_confirmation_code, resend: true, to: "welcome#confirm_order"
 	#post "place-order", to: "welcome#place_order", as: :place_order
 	# The priority is based upon order of creation: first created -> highest priority.
 	# See how all your routes lay out with "rake routes".

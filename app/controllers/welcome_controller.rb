@@ -56,7 +56,9 @@ class WelcomeController < ApplicationController
 			@new_order.pizza_id = params.require(:order)[:pizza_id].values.to_a
 			@new_order.pizza_size = params.require(:order)[:pizza_size].values.to_a
 			if @new_order.save
-				Order.find(@new_order.id).send_confirmation_code
+				#Order.find(@new_order.id).send_confirmation_code
+				session[:pizza_ids] = nil
+				session[:order_id] = @new_order.id
 				redirect_to confirm_order_path
 			else
 				flash[:error] = @new_order.errors.full_messages.join "<br />"
@@ -92,16 +94,25 @@ class WelcomeController < ApplicationController
 	end
 
 	def confirm_order
-		if request.get?
-			@layout_details = {
-				controller: params[:controller],
-				action: params[:action],
-				styles: [params[:action]],
-				other_styles: [],
-				scripts: [params[:action]],
-				other_scripts: [],
-				title: "Le Chat Bleu - Confirm order"
-			}
+		if params[:resend]
+			@redirect_to = confirm_order_path
+			if get_client_last_order[:success]
+				@order = Order.find get_client_last_order[:order_id]
+				@resent = @order.resend_confirmation_code
+				if @resent[:success]
+					flash[:alert] = "Your confirmation code has been sent again"
+				elsif @resent[:error_code] == 1
+					flash[:alert] = "Please wait at least 10 minutes before requesting a resend :)"
+				elsif @resent[:error_code] == 2
+					flash[:alert] = "<b>Order expired</b><br />Your order is no longer valid after 2 hours :(<br />Please make another order"
+					@redirect_to = place_order_path
+				elsif @resent[:error_code] == 3
+					flash[:alert] = "Confirmation code has already been resent"
+				end
+			else
+				flash[:alert] = "No order found :(<br />We are sincerely sorry for this"
+			end
+			redirect_to @redirect_to
 		elsif request.post?
 			@layout_details = {
 				controller: params[:controller],
@@ -113,26 +124,54 @@ class WelcomeController < ApplicationController
 				title: "Le Chat Bleu - Confirm order"
 			}
 			@order = Order.find_by(confirmation_code: params[:confirm_order][:confirmation_code])
+			@redirect_to = confirm_order_path
 			if !@order.nil?
 				if @order.confirmed
-					@return = "Order is already confirmed."
+					flash[:alert] = "Order is already confirmed."
+				elsif @order.expired
+					flash[:alert] = "<b>Order expired</b><br />Your order is no longer valid after 2 hours :(<br />Please make another order"
+					@redirect_to = place_order_path
 				else
 					@order.confirmed = true
 					if @order.save
+						@redirect_to = root_path
 						@order.alert_admin
-						@return = "Your order has been confirmed"
+						flash[:alert] = "Your order has been confirmed"
 					else
-						@return = "Unknown error occurred :("
+						flash[:alert] = "Unknown error occurred :("
 					end
 				end
 			else
-				@return = "Order not found. Cross check your confirmation code."
+				flash[:alert] = "Order not found. Cross check your confirmation code."
 			end
+			redirect_to @redirect_to
+		elsif request.get?
+			@layout_details = {
+				controller: params[:controller],
+				action: params[:action],
+				styles: [params[:action]],
+				other_styles: [],
+				scripts: [params[:action]],
+				other_scripts: [],
+				title: "Le Chat Bleu - Confirm order"
+			}
 		end
 	end
 
 	private
 		def get_order_params
 			params.require(:order).permit :name, :address, :phone, :city
+		end
+
+		def get_client_last_order
+			if session[:order_id].nil?
+				@order = Order.where(client_ip: request.remote_ip.to_s).last
+				record_identified = @order.nil? ? false : true
+				{:success => record_identified, :order_id => record_identified ? @order.id : nil}
+			else
+				@order = Order.find(session[:order_id])
+				record_identified = @order.nil? ? false : true
+				{:success => record_identified, :order_id => record_identified ? @order.id : nil}
+			end
 		end
 end

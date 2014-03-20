@@ -31,9 +31,35 @@ class Order < ActiveRecord::Base
 		response = message.deliver
 	end
 
+	def resend_confirmation_code
+		unless self.expired  ## unless (expression) is same as if !(expression)
+			if self.resent
+				{:success => false, :error_code => 3}  #error code 3 is conf code has already been resent
+			elsif (Time.now - 30).to_datetime >= self.created_at
+				#self.send_confirmation_code
+				self.resent = true
+				self.save
+				{:success => true}
+			else
+				{:success => false, :error_code => 1}  #error code 1 not yet 10 min
+			end
+		else
+			{:success => false, :error_code => 2}  #error code 2 is order expired
+		end
+	end
+
+	def expired
+		if (Time.now - 60).to_datetime > self.created_at
+			true
+		else
+			false
+		end
+	end
+
 	private
 		def init
 			self.confirmed ||= false
+			self.resent ||= false
 		end
 
 		def generate_confirmation_code

@@ -24,6 +24,9 @@ $ ->
 	if window._errorAny_
 		Apprise("<span class=\"\">"+window._errorDetails_+"</span>", apprise_options)
 
+	if window._alertAny_
+		Apprise("<span class=\"\">"+window._alertDetails_+"</span>", apprise_options)
+
 	#$("#content").height $(window).height() - 205       #### TRY UNCOMMENTING THIS LINE :D PRETTY COOL ;)
 	$("[data-href]:not(.selected)").click ->
 		href = $(this).attr("data-href")

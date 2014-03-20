@@ -1,8 +1,10 @@
 <div id="confirm_order_div">
     <% if @return.nil? %>
     <div class="kotta_one small bold">
-        An SMS has been sent to your mobile, please insert the code below and confirm your order.<br />
-        The SMS might take up to 10 minutes to reach your mobile.
+        A confirmation code has been sent to your mobile, use it to confirm your order.<br />
+        The SMS might take up to 10 minutes to reach your mobile.<br />
+        If you did not received your confirmation code within 10 minutes, click below<br />
+        <a href="<%= resend_confirmation_code_path %>">Resend code</a>
     </div>
     <%= form_for :confirm_order, url: confirm_order_path, html: {id: "confirm_order_form"} do |f| %>
         <table id="confirm_order_table" class="table">

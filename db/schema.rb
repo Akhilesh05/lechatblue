@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140319190611) do
+ActiveRecord::Schema.define(version: 20140320105635) do
 
   create_table "orders", force: true do |t|
     t.string   "pizza_id"
@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 20140319190611) do
     t.string   "client_ip"
     t.string   "msg_id"
     t.boolean  "msg_delivered"
+    t.boolean  "resent"
   end
 
   create_table "pizzas", force: true do |t|
