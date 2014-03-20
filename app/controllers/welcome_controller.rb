@@ -34,7 +34,9 @@ class WelcomeController < ApplicationController
 			other_scripts: [],
 			title: "Le Chat Bleu - Pizzas"
 		}
-		@pizzas = Pizza.all
+		if params[:category] == "pizzas"
+			@pizzas = Pizza.all
+		end
 	end
 	def place_order
 		@layout_details = {
