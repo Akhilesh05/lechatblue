@@ -6,7 +6,7 @@
         <div class="menu" data-href="<%=  %>">
             <div class="menu_image" style="background: url(<%= image_path "items/1.jpg" %>)"></div>
             <div class="menu_details">
-                <div class="item_name"><%= pizza.name %></div>
+                <div class="item_name red"><%= pizza.name %></div>
                 <div class="item_description"><strong>Main ingredients: </strong><%= pizza.ingredients.join(", ") %></div>
                 <div class="item_tags"><span class="<%= pizza.veg ? "veg" : "non_veg" %>"><%= pizza.veg ? "veg" : "non veg" %></span></div>
             </div>
