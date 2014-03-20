@@ -28,7 +28,7 @@ class Order < ActiveRecord::Base
 			pizza_name = Pizza.find(self.pizza_id[i].to_i).name
 			order_description += "\n:: #{j} ::\npizza-id:#{self.pizza_id[i]}\npizza-name:#{pizza_name}\npizza-size:#{size}"
 		end
-		order_description += "\nOrder id:#{self.id}"
+		order_description += "\n\nOrder id:#{self.id}"
 		message_description = "An online order has been made:-#{order_description}"
 		message = api.messages.build :to => "23054770162", :content => message_description, :from => "LeChatBleu"
 		response = message.deliver
