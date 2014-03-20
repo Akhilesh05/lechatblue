@@ -60,6 +60,21 @@
 }
 .red{
 	color: rgba(189, 3, 10, 1) !important;
+	&.text-shadow{
+		text-shadow: 0 0 10px rgba(189, 3, 10, 1);
+	}
+}
+.blue{
+	color: rgb(0, 79, 137) !important;
+	&.text-shadow{
+		text-shadow: 0 0 10px rgb(0, 79, 137);
+	}
+}
+.green{
+	color: rgb(68, 129, 0) !important;
+	&.text-shadow{
+		text-shadow: 0 0 10px rgb(68, 129, 0);
+	}
 }
 .heading{
 	color: rgba(189, 3, 10, 1);
