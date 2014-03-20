@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96bfc33e-e416-4265-939a-3b3d84c8547b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/menu_category.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/menu_category.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/welcome/place_order.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/welcome/place_order.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/place_order.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/place_order.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/order.rb" afterPath="$PROJECT_DIR$/app/models/order.rb" />
     </list>
     <ignored path="lechatblue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +51,7 @@
       <file leaf-file-name="order.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/order.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="26" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.36772045" vertical-offset="408" max-vertical-offset="1326">
+            <state line="31" column="0" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.62229615" vertical-offset="153" max-vertical-offset="1377">
               <folding />
             </state>
           </provider>
@@ -125,12 +120,12 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/models/pizza.rb" />
-        <option value="$PROJECT_DIR$/app/models/order.rb" />
         <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/menu_category.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome/place_order.css.scss" />
         <option value="$PROJECT_DIR$/app/views/welcome/place_order.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/order.rb" />
       </list>
     </option>
   </component>
@@ -851,7 +846,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/order.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="26" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.36772045" vertical-offset="408" max-vertical-offset="1326">
+        <state line="31" column="0" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.62229615" vertical-offset="153" max-vertical-offset="1377">
           <folding />
         </state>
       </provider>
