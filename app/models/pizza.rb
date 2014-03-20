@@ -1,10 +1,9 @@
 class Pizza < ActiveRecord::Base
+	serialize :ingredients, Array
+	serialize :add_ons, Array
+	serialize :price, Hash
+
 	def get_price
-		i = 0
-		x = self.price.split(";").map{ |price|
-			i+=1
-			[ i == 1 ? :small : i == 2 ? :medium : :large , price]
-		}
-		Hash[x]
+		self.price
 	end
 end

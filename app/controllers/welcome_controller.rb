@@ -56,7 +56,7 @@ class WelcomeController < ApplicationController
 			@new_order.pizza_id = params.require(:order)[:pizza_id].values.to_a
 			@new_order.pizza_size = params.require(:order)[:pizza_size].values.to_a
 			if @new_order.save
-				#Order.find(@new_order.id).send_confirmation_code
+				Order.find(@new_order.id).send_confirmation_code
 				session[:pizza_ids] = nil
 				session[:order_id] = @new_order.id
 				redirect_to confirm_order_path
@@ -89,7 +89,6 @@ class WelcomeController < ApplicationController
 				other_scripts: [],
 				title: "Le Chat Bleu - Order Now"
 			}
-			#render text: Order.find(37).pizza_id[0]
 		end
 	end
 
@@ -108,6 +107,9 @@ class WelcomeController < ApplicationController
 					@redirect_to = place_order_path
 				elsif @resent[:error_code] == 3
 					flash[:alert] = "Confirmation code has already been resent"
+				elsif @resent[:error_code] == 4
+					flash[:alert] = "Your latest order has already been confirmed ;)"
+					@redirect_to = root_path
 				end
 			else
 				flash[:alert] = "No order found :(<br />We are sincerely sorry for this"

@@ -32,11 +32,13 @@ class Order < ActiveRecord::Base
 	end
 
 	def resend_confirmation_code
-		unless self.expired  ## unless (expression) is same as if !(expression)
+		if self.confirmed
+			{success: false, error_code: 4}
+		elsif !self.expired  ## unless (expression) is same as if !(expression)
 			if self.resent
 				{:success => false, :error_code => 3}  #error code 3 is conf code has already been resent
-			elsif (Time.now - 30).to_datetime >= self.created_at
-				#self.send_confirmation_code
+			elsif (Time.now - 600).to_datetime >= self.created_at
+				self.send_confirmation_code
 				self.resent = true
 				self.save
 				{:success => true}
@@ -49,7 +51,7 @@ class Order < ActiveRecord::Base
 	end
 
 	def expired
-		if (Time.now - 60).to_datetime > self.created_at
+		if (Time.now - 7200).to_datetime > self.created_at
 			true
 		else
 			false
