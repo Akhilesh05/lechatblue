@@ -37,6 +37,8 @@ class Order < ActiveRecord::Base
 	def resend_confirmation_code
 		if self.confirmed
 			{success: false, error_code: 4}
+		elsif self.msg_delivered
+			{success: false, error_code: 5}
 		elsif !self.expired  ## unless (expression) is same as if !(expression)
 			if self.resent
 				{:success => false, :error_code => 3}  #error code 3 is conf code has already been resent
@@ -65,6 +67,7 @@ class Order < ActiveRecord::Base
 		def init
 			self.confirmed ||= false
 			self.resent ||= false
+			self.msg_delivered ||= false
 		end
 
 		def generate_confirmation_code

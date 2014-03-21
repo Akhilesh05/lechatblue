@@ -1,6 +1,7 @@
 class WelcomeController < ApplicationController
 	before_action :redirect_to_lechatbleutk, except: [:create_order]
 	before_action :redirect_to_herokuapp_with_ssl, only: [:create_order]
+	skip_before_action :verify_authenticity_token, only: [:delivery_receipt]
 
 	def index
 		@layout_details = {
@@ -112,6 +113,8 @@ class WelcomeController < ApplicationController
 				elsif @resent[:error_code] == 4
 					flash[:alert] = "Your latest order has already been confirmed ;)"
 					@redirect_to = root_path
+				elsif @resent[:error_code] == 5
+					flash[:alert] = "Your confirmation code has been delivered ;)<br />Please check your mobile phone"
 				end
 			else
 				flash[:alert] = "No order found :(<br />We are sincerely sorry for this"
@@ -159,6 +162,16 @@ class WelcomeController < ApplicationController
 				other_scripts: [],
 				title: "Le Chat Bleu - Confirm order"
 			}
+		end
+	end
+
+	def delivery_receipt
+		msg_id = params[:msg_id]
+		msg_status = params[:status]
+		@order = Order.find_by(:msg_id => msg_id)
+		if msg_status == "DELIVRD" && !@order.nil?
+			@order.msg_delivered = true
+			@order.save
 		end
 	end
 
