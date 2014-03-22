@@ -173,6 +173,7 @@ class WelcomeController < ApplicationController
 			@order.msg_delivered = true
 			@order.save
 		end
+		render nothing: true
 	end
 
 	private

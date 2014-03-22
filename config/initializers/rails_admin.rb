@@ -17,7 +17,7 @@ RailsAdmin.config do |config|
 	### More at https://github.com/sferik/rails_admin/wiki/Base-configuration
 	RailsAdmin.config do |config|
 		config.authorize_with do
-			authenticate_or_request_with_http_basic('Site Message') do |username, password|
+			authenticate_or_request_with_http_basic('This site is strictly unauthorised unless the administrator.') do |username, password|
 				username == 'admin' && password == 'admin'
 			end
 		end

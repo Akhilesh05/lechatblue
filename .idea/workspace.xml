@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96bfc33e-e416-4265-939a-3b3d84c8547b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lechatblue.iml" afterPath="$PROJECT_DIR$/.idea/lechatblue.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/rails_admin.rb" afterPath="$PROJECT_DIR$/config/initializers/rails_admin.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lechatblue.iws" />
@@ -17,7 +21,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/lechatblue@db_migrate__lechatblue.coverage" NAME="db:migrate: lechatblue Coverage Results" MODIFIED="1395319798183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lechatblue" />
-    <SUITE FILE_PATH="coverage/lechatblue@Development__lechatblue.coverage" NAME="Development: lechatblue Coverage Results" MODIFIED="1395429139396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lechatblue" />
+    <SUITE FILE_PATH="coverage/lechatblue@Development__lechatblue.coverage" NAME="Development: lechatblue Coverage Results" MODIFIED="1395515866092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lechatblue" />
     <SUITE FILE_PATH="coverage/lechatblue@Rails_console__lechatblue.coverage" NAME="Rails console: lechatblue Coverage Results" MODIFIED="1395342676437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lechatblue" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -35,25 +39,25 @@
       <file leaf-file-name="welcome_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="79" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="3400">
+            <state line="176" column="0" selection-start="5364" selection-end="5364" vertical-scroll-proportion="0.0" vertical-offset="2669" max-vertical-offset="3417">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="954" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1054">
+            <state line="41" column="17" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.67493796" vertical-offset="425" max-vertical-offset="1037">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rails_admin.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="rails_admin.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/rails_admin.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="57" selection-start="624" selection-end="624" vertical-scroll-proportion="0.74689823" vertical-offset="39" max-vertical-offset="799">
+            <state line="17" column="17" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
@@ -161,10 +165,10 @@
         <option value="$PROJECT_DIR$/app/views/welcome/place_order.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/order.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/initializers/rails_admin.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -569,16 +573,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/pizzas/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="113" selection-end="113" vertical-scroll-proportion="0.17252396" vertical-offset="0" max-vertical-offset="626" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pizzas.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.08626198" vertical-offset="0" max-vertical-offset="626" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604" />
@@ -621,7 +615,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140317112123_add_client_ip_from_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140317112018_remove_client_ip_from_orders.rb">
@@ -631,7 +627,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140317113110_change_pizza_id_type_in_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="47" selection-start="115" selection-end="115" vertical-scroll-proportion="0.055555556" vertical-offset="0" max-vertical-offset="612" />
+        <state line="2" column="47" selection-start="115" selection-end="115" vertical-scroll-proportion="0.055555556" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/menu_book.js.coffee">
@@ -681,12 +679,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140319172345_add_msg_id_to_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="402" />
+        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="402">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140319190611_add_msg_delivered_to_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.21144278" vertical-offset="0" max-vertical-offset="402" />
+        <state line="5" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.21144278" vertical-offset="0" max-vertical-offset="402">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pizzas_controller.rb">
@@ -701,7 +703,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140320124934_add_add_ons_to_pizzas.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="62" selection-end="62" vertical-scroll-proportion="0.042079207" vertical-offset="0" max-vertical-offset="404" />
+        <state line="1" column="12" selection-start="62" selection-end="62" vertical-scroll-proportion="0.042079207" vertical-offset="0" max-vertical-offset="404">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/confirm_order.js.coffee">
@@ -767,12 +771,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140316083823_change_confirmed_type_in_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="570" selection-end="570" vertical-scroll-proportion="0.47068405" vertical-offset="0" max-vertical-offset="614" />
+        <state line="17" column="6" selection-start="570" selection-end="570" vertical-scroll-proportion="0.47068405" vertical-offset="0" max-vertical-offset="614">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140320105635_add_resent_to_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="67" selection-end="67" vertical-scroll-proportion="0.055374593" vertical-offset="0" max-vertical-offset="614" />
+        <state line="2" column="4" selection-start="67" selection-end="67" vertical-scroll-proportion="0.055374593" vertical-offset="0" max-vertical-offset="614">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/activerecord-4.0.2/lib/active_record/persistence.rb">
@@ -807,6 +815,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_controller/metal/http_authentication.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="12" selection-start="2622" selection-end="2622" vertical-scroll-proportion="0.3325062" vertical-offset="1192" max-vertical-offset="8432">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/session_store.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/rails_admin.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="17" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/rails_admin-0.6.1/lib/rails_admin.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/order.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="9" selection-start="114" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1326">
@@ -816,28 +852,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="79" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3400">
+        <state line="176" column="0" selection-start="5364" selection-end="5364" vertical-scroll-proportion="0.0" vertical-offset="2669" max-vertical-offset="3417">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="954" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.2/lib/action_controller/metal/http_authentication.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="12" selection-start="2622" selection-end="2622" vertical-scroll-proportion="0.3325062" vertical-offset="1192" max-vertical-offset="8432">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/rails_admin.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="57" selection-start="624" selection-end="624" vertical-scroll-proportion="0.74689823" vertical-offset="39" max-vertical-offset="799">
+        <state line="41" column="17" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.67493796" vertical-offset="425" max-vertical-offset="1037">
           <folding />
         </state>
       </provider>
