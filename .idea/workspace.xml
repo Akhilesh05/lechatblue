@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96bfc33e-e416-4265-939a-3b3d84c8547b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/order.rb" afterPath="$PROJECT_DIR$/app/models/order.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lechatblue.iws" />
@@ -31,10 +31,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="welcome_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="welcome_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="20" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.44299674" vertical-offset="731" max-vertical-offset="3400">
+            <state line="58" column="79" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="3400">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="0" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.6388889" vertical-offset="289" max-vertical-offset="1054">
               <folding />
             </state>
           </provider>
@@ -43,7 +52,7 @@
       <file leaf-file-name="order.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/order.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="9" selection-start="114" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1326">
+            <state line="6" column="9" selection-start="114" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1326">
               <folding />
             </state>
           </provider>
@@ -52,7 +61,7 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="10" selection-start="866" selection-end="882" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+            <state line="11" column="10" selection-start="866" selection-end="882" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1241">
               <folding />
             </state>
           </provider>
@@ -61,7 +70,7 @@
       <file leaf-file-name="lechatblue.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="46" selection-start="2658" selection-end="2658" vertical-scroll-proportion="-9.461538" vertical-offset="1029" max-vertical-offset="4301">
+            <state line="75" column="46" selection-start="2658" selection-end="2658" vertical-scroll-proportion="0.0" vertical-offset="1029" max-vertical-offset="4301">
               <folding />
             </state>
           </provider>
@@ -131,7 +140,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome/create_order.css.scss" />
         <option value="$PROJECT_DIR$/app/views/welcome/create_order.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/welcome/confirm_order.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee" />
         <option value="$PROJECT_DIR$/app/views/welcome/confirm_order.html.erb" />
@@ -145,6 +153,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/order.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -206,7 +215,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -228,6 +236,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -485,11 +494,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14274925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14652568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -579,9 +588,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140317112123_add_client_ip_from_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140317112018_remove_client_ip_from_orders.rb">
@@ -591,9 +598,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140317113110_change_pizza_id_type_in_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="47" selection-start="115" selection-end="115" vertical-scroll-proportion="0.055555556" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
+        <state line="2" column="47" selection-start="115" selection-end="115" vertical-scroll-proportion="0.055555556" vertical-offset="0" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/menu_book.js.coffee">
@@ -631,13 +636,6 @@
         <state line="0" column="41" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="403" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/create_order.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="9" selection-start="58" selection-end="1709" vertical-scroll-proportion="0.91099477" vertical-offset="634" max-vertical-offset="1292" />
@@ -650,16 +648,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140319172345_add_msg_id_to_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="402">
-          <folding />
-        </state>
+        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="402" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140319190611_add_msg_delivered_to_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.21144278" vertical-offset="0" max-vertical-offset="402">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.21144278" vertical-offset="0" max-vertical-offset="402" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pizzas_controller.rb">
@@ -674,9 +668,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140320124934_add_add_ons_to_pizzas.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="62" selection-end="62" vertical-scroll-proportion="0.042079207" vertical-offset="0" max-vertical-offset="404">
-          <folding />
-        </state>
+        <state line="1" column="12" selection-start="62" selection-end="62" vertical-scroll-proportion="0.042079207" vertical-offset="0" max-vertical-offset="404" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/confirm_order.js.coffee">
@@ -730,65 +722,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="767" selection-end="767" vertical-scroll-proportion="0.5091514" vertical-offset="0" max-vertical-offset="601">
-          <folding />
-        </state>
+        <state line="18" column="8" selection-start="767" selection-end="767" vertical-scroll-proportion="0.5091514" vertical-offset="0" max-vertical-offset="601" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="46" selection-start="2658" selection-end="2658" vertical-scroll-proportion="-9.461538" vertical-offset="1029" max-vertical-offset="4301">
+        <state line="75" column="46" selection-start="2658" selection-end="2658" vertical-scroll-proportion="0.0" vertical-offset="1029" max-vertical-offset="4301">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140316083823_change_confirmed_type_in_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="570" selection-end="570" vertical-scroll-proportion="0.47068405" vertical-offset="0" max-vertical-offset="614">
-          <folding />
-        </state>
+        <state line="17" column="6" selection-start="570" selection-end="570" vertical-scroll-proportion="0.47068405" vertical-offset="0" max-vertical-offset="614" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140320105635_add_resent_to_orders.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="67" selection-end="67" vertical-scroll-proportion="0.055374593" vertical-offset="0" max-vertical-offset="614">
-          <folding />
-        </state>
+        <state line="2" column="4" selection-start="67" selection-end="67" vertical-scroll-proportion="0.055374593" vertical-offset="0" max-vertical-offset="614" />
       </provider>
     </entry>
     <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/activerecord-4.0.2/lib/active_record/persistence.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="8" selection-start="9084" selection-end="9084" vertical-scroll-proportion="0.33224756" vertical-offset="3604" max-vertical-offset="8942">
-          <folding />
-        </state>
+        <state line="224" column="8" selection-start="9084" selection-end="9084" vertical-scroll-proportion="0.33224756" vertical-offset="3604" max-vertical-offset="8942" />
       </provider>
     </entry>
     <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/activerecord-4.0.2/lib/active_record/base.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="302" column="22" selection-start="14293" selection-end="14293" vertical-scroll-proportion="0.0" vertical-offset="4911" max-vertical-offset="5593">
-          <folding />
-        </state>
+        <state line="302" column="22" selection-start="14293" selection-end="14293" vertical-scroll-proportion="0.0" vertical-offset="4911" max-vertical-offset="5593" />
       </provider>
     </entry>
     <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/activerecord-4.0.2/lib/active_record/validations/associated.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="29" selection-end="29" vertical-scroll-proportion="0.027687296" vertical-offset="0" max-vertical-offset="935">
-          <folding />
-        </state>
+        <state line="1" column="9" selection-start="29" selection-end="29" vertical-scroll-proportion="0.027687296" vertical-offset="0" max-vertical-offset="935" />
       </provider>
     </entry>
     <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/clockworksms-1.1.0/lib/clockwork.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="614">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="614" />
       </provider>
     </entry>
     <entry file="file://C:/Ruby200/lib/ruby/2.0.0/irb/inspector.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="8" selection-start="3217" selection-end="3217" vertical-scroll-proportion="0.33224756" vertical-offset="1632" max-vertical-offset="2567">
-          <folding />
-        </state>
+        <state line="108" column="8" selection-start="3217" selection-end="3217" vertical-scroll-proportion="0.33224756" vertical-offset="1632" max-vertical-offset="2567" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -807,7 +783,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="20" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.44299674" vertical-offset="731" max-vertical-offset="3400">
+        <state line="58" column="79" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.6388889" vertical-offset="289" max-vertical-offset="1054">
           <folding />
         </state>
       </provider>

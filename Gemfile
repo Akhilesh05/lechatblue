@@ -38,6 +38,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'rails_admin'
+#gem 'activeadmin'
+#gem "meta_search",    '>= 1.1.0.pre'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
