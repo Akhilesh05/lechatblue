@@ -4,7 +4,7 @@
         <% unless @pizzas.nil? %>
         <% @pizzas.each do |pizza| %>
         <div class="menu" data-href="<%=  %>">
-            <div class="menu_image" style="background: url(<%= image_path "items/1.jpg" %>)"></div>
+            <div class="menu_image" style="background: url(<%= image_path "items/p_#{pizza.image}.jpg" %>)"></div>
             <div class="menu_details">
                 <div class="item_name green"><%= pizza.name %></div>
                 <div class="item_description"><strong>Main ingredients: </strong><%= pizza.ingredients.join(", ") %></div>
