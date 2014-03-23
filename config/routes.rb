@@ -1,5 +1,5 @@
 Lechatblue::Application.routes.draw do
-  mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
+    mount RailsAdmin::Engine => '/admin', :as => 'rails_admin'
 	resources :pizzas
 	root "welcome#index"
 	get "menu-book", to: "welcome#menu_book", as: :menu_book
