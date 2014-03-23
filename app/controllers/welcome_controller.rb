@@ -11,7 +11,7 @@ class WelcomeController < ApplicationController
 				other_styles: [],
 				scripts: [params[:action]],
 		        other_scripts: [],
-		        title: "Le Chat Bleu"
+		        title: 'Le Chat Bleu'
 		}
 	end
 	def menu_book
@@ -22,7 +22,7 @@ class WelcomeController < ApplicationController
 			other_styles: [],
 			scripts: [params[:action]],
 			other_scripts: [],
-			title: "Le Chat Bleu - Menu"
+			title: 'Le Chat Bleu - Menu'
 		}
 	end
 	def menu_category
@@ -33,10 +33,14 @@ class WelcomeController < ApplicationController
 			other_styles: [],
 			scripts: [params[:action]],
 			other_scripts: [],
-			title: "Le Chat Bleu - Pizzas"
+			title: 'Le Chat Bleu - Pizzas'
 		}
-		if params[:category] == "pizzas"
+		if params[:category] == 'pizzas'
 			@pizzas = Pizza.all
+		elsif params[:category] == 'roasted-chicken'
+			@roasted_chicken = RoastedChicken.all
+		elsif params[:category] == 'drinks'
+			@drinks = Drink.all
 		end
 	end
 	def place_order
@@ -50,6 +54,18 @@ class WelcomeController < ApplicationController
 			title: "Le Chat Bleu - Order Now"
 		}
 		@pizzas = Pizza.all
+	end
+
+	def about_us
+		@layout_details = {
+			controller: params[:controller],
+			action: params[:action],
+			styles: [params[:action]],
+			other_styles: [],
+			scripts: [params[:action]],
+			other_scripts: [],
+			title: "Le Chat Bleu - About Us"
+		}
 	end
 
 	def create_order

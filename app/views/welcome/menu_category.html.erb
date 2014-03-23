@@ -1,17 +1,36 @@
 <div id="menu_container">
     <div class="heading" id="title"><!-- Optional --></div>
     <div id="menu_div">
-        <% unless @pizzas.nil? %>
-        <% @pizzas.each do |pizza| %>
-        <div class="menu" data-href="<%=  %>">
-            <div class="menu_image" style="background: url(<%= image_path "items/p_#{pizza.image}.jpg" %>)"></div>
-            <div class="menu_details">
-                <div class="item_name green"><%= pizza.name %></div>
-                <div class="item_description"><strong>Main ingredients: </strong><%= pizza.ingredients.join(", ") %></div>
-                <div class="item_tags"><span class="<%= pizza.veg ? "veg" : "non_veg" %>"><%= pizza.veg ? "veg" : "non veg" %></span></div>
-            </div>
-        </div>
-        <% end %>
+        <% if !@pizzas.nil? %>
+            <% @pizzas.each do |pizza| %>
+                <div class="menu" data-href="<%=  %>">
+                    <div class="menu_image" style="background: url(<%= image_path "items/p_#{pizza.image}.jpg" %>)"></div>
+                    <div class="menu_details">
+                        <div class="item_name green"><%= pizza.name %></div>
+                        <div class="item_description"><strong>Main ingredients: </strong><%= pizza.ingredients.join(", ") %></div>
+                        <div class="item_tags"><span class="<%= pizza.veg ? "veg" : "non_veg" %>"><%= pizza.veg ? "veg" : "non veg" %></span></div>
+                    </div>
+                </div>
+            <% end %>
+        <% elsif !@roasted_chicken.nil? %>
+            <% @roasted_chicken.each do |roast| %>
+                <div class="menu">
+                    <div class="menu_image" style="background: url(<%= image_path "items/r_#{roast.image}.jpg" %>)"></div>
+                    <div class="menu_details">
+                        <div class="item_name green"><%= roast.name %></div>
+                        <div class="item_description"><strong>Main ingredients: </strong><%= roast.ingredients.join(", ") %></div>
+                    </div>
+                </div>
+            <% end %>
+        <% elsif !@drinks.nil? %>
+            <% @drinks.each do |drink| %>
+                <div class="menu">
+                    <div class="menu_image" style="background: url(<%= image_path "items/d_#{drink.image}.jpg" %>)"></div>
+                    <div class="menu_details">
+                        <div class="item_name green" style="padding: 49px 10px 0 10px; text-align: center"><%= drink.name %></div>
+                    </div>
+                </div>
+            <% end %>
         <% end %>
     </div>
 </div>

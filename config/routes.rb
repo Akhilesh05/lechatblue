@@ -11,6 +11,7 @@ Lechatblue::Application.routes.draw do
 	match "confirm-order", to: "welcome#confirm_order", as: :confirm_order, via: [:get, :post]
 	get "confirm-order/resend-confirmation-code", as: :resend_confirmation_code, resend: true, to: "welcome#confirm_order"
 	post "delivery-receipt", to: "welcome#delivery_receipt"
+	get "about-us", to: "welcome#about_us", as: :about_us
 	# The priority is based upon order of creation: first created -> highest priority.
 	# See how all your routes lay out with "rake routes".
 
