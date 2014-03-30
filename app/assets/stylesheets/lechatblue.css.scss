@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Niconne|Lobster+Two:400,700italic,700|Kotta+One);
+@import url(https://fonts.googleapis.com/css?family=Niconne|Lobster+Two:400,700italic,700|Kotta+One|Ubuntu:700);
 *{
 	margin: 0;
 	padding: 0;
@@ -58,26 +58,29 @@
 .x-x-large{
 	font-size: 22px !important;
 }
+$red: rgba(189, 3, 10, 1);
+$blue: rgb(0, 79, 137);
+$green: rgb(59, 111, 0);
 .red{
-	color: rgba(189, 3, 10, 1) !important;
+	color: $red !important;
 	&.text-shadow{
-		text-shadow: 0 0 10px rgba(189, 3, 10, 1);
+		text-shadow: 0 0 10px $red;
 	}
 }
 .blue{
-	color: rgb(0, 79, 137) !important;
+	color: $blue !important;
 	&.text-shadow{
-		text-shadow: 0 0 10px rgb(0, 79, 137);
+		text-shadow: 0 0 10px $blue;
 	}
 }
 .green{
-	color: rgb(59, 111, 0) !important;
+	color: $green !important;
 	&.text-shadow{
-		text-shadow: 0 0 10px rgb(59, 111, 0) ;
+		text-shadow: 0 0 10px $green ;
 	}
 }
 .heading{
-	color: rgba(189, 3, 10, 1);
+	color: $red;
 	font: 900 26px/1 "Niconne";
 	letter-spacing: 1px;
 	padding: 5px 10px;
@@ -102,14 +105,14 @@
 				}
 			}
 			div{
-				color: rgba(189, 3, 10, 1);
+				color: $red;
 				font: 400 20px/1 "Niconne";
 				padding: 5px 10px;
 				input[type=text], textarea{
 					background: rgba(255,255,255,0.5);
 					width: 200px;
-					color: rgba(189, 3, 10, 1);
-					border: solid 1px rgba(189, 3, 10, 1);
+					color: $red;
+					border: solid 1px $red;
 					padding: 5px 10px;
 					max-width: 0.2spx;
 					&:focus{
@@ -124,9 +127,9 @@
 				}
 				select{
 					background: rgba(255,255,255,0.5);
-					color: rgba(189, 3, 10, 1);
+					color: $red;
 					width: 222px;
-					border: solid 1px rgba(189, 3, 10, 1);
+					border: solid 1px $red;
 					padding: 5px 10px;
 					&:focus{
 						outline: none;
@@ -142,11 +145,11 @@
 					color: #fff;
 					border-radius: 10px;
 					top: 0;
-					box-shadow: 0 10px 0 rgba(189, 3, 10, 1), 0 10px 10px rgba(0, 0, 0, 1);
+					box-shadow: 0 10px 0 $red, 0 10px 10px rgba(0, 0, 0, 1);
 					&:active{
 						outline: none;
 						top: 10px;
-						box-shadow: 0 0 0 rgba(189, 3, 10, 1), 0 0 3px rgba(0, 0, 0, 1);
+						box-shadow: 0 0 0 $red, 0 0 3px rgba(0, 0, 0, 1);
 						-webkit-transition: all 0.2s;-moz-transition: all 0.2s;-ms-transition: all 0.2s;-o-transition: all 0.2s;transition: all 0.2s;
 					}
 					&:focus{
@@ -169,6 +172,31 @@ body{
 	cursor: pointer;
 	&.selected{
 		cursor: default;
+	}
+}
+#overlay{
+	display: none;
+	opacity: 0;
+	z-index: 9999;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(255,255,255,.7);
+	padding: 75px 100px;
+	> div#overlay_close{
+		position: fixed;
+		top: 20px;
+		color: rgba(204, 9, 0, 0.9);
+		text-shadow: 0 0 10px rgba(204, 9, 0, 0.8);
+		right: 115px;
+		font: 700 45px/1 "Ubuntu";
+		cursor: pointer;
+	}
+	> div#overlay_content{
+		background: rgba(255,255,255,1);
+		box-shadow: 0 0 10px rgba(0,0,0,1);
 	}
 }
 #wrapper{

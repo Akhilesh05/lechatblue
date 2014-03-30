@@ -1,4 +1,12 @@
+overlay =
+	close: -> $("#overlay").animate {"opacity": "0"}, 300, -> $("#overlay").css("display", "none")
+	open: ->
+		$("#overlay").css("display", "block")
+		$("#overlay").animate {"opacity": "1"}, 300
+	html: (string) -> $("#overlay_content").html(string)
+
 resizeScreen = ->
+	$("#overlay > div#overlay_content").height $(window).height() - 150
 	if $(window).height() > 469
 		$("#left_section").height $(window).height()
 	else
@@ -31,3 +39,5 @@ $ ->
 	$("[data-href]:not(.selected)").click ->
 		href = $(this).attr("data-href")
 		window.location = href
+
+	$("#overlay_close").click -> overlay.close()
