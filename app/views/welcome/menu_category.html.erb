@@ -3,7 +3,8 @@
     <div id="menu_div">
         <% if !@pizzas.nil? %>
             <% @pizzas.each do |pizza| %>
-                <div class="menu" data-href="<%=  %>">
+                <% pizza_id = pizza.id %>
+                <div class="menu pizza" data-href="#<%= pizza_id %>" data-id="<%= pizza_id %>">
                     <div class="menu_image" style="background: url(<%= image_path "items/p_#{pizza.image}.jpg" %>)"></div>
                     <div class="menu_details">
                         <div class="item_name green"><%= pizza.name %></div>
@@ -14,7 +15,7 @@
             <% end %>
         <% elsif !@roasted_chicken.nil? %>
             <% @roasted_chicken.each do |roast| %>
-                <div class="menu">
+                <div class="menu roasted-chicken">
                     <div class="menu_image" style="background: url(<%= image_path "items/r_#{roast.image}.jpg" %>)"></div>
                     <div class="menu_details">
                         <div class="item_name green"><%= roast.name %></div>
@@ -24,7 +25,7 @@
             <% end %>
         <% elsif !@drinks.nil? %>
             <% @drinks.each do |drink| %>
-                <div class="menu">
+                <div class="menu drinks">
                     <div class="menu_image" style="background: url(<%= image_path "items/d_#{drink.image}.jpg" %>)"></div>
                     <div class="menu_details">
                         <div class="item_name green" style="padding: 49px 10px 0 10px; text-align: center"><%= drink.name %></div>
@@ -34,3 +35,13 @@
         <% end %>
     </div>
 </div>
+
+<aside id="hidden">
+    <div id="hidden_pizza">
+        <div id="hidden_pizza_name" class="heading"></div>
+        <div id="hidden_pizza_ingredients"></div>
+        <div id="hidden_pizza_description"></div>
+        <div id="hidden_pizza_price"></div>
+        <div id="hidden_pizza_image"></div>
+    </div>
+</aside>

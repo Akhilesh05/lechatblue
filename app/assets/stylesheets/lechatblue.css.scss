@@ -174,11 +174,14 @@ body{
 		cursor: default;
 	}
 }
+#hidden{
+	display: none;
+}
 #overlay{
 	display: none;
 	opacity: 0;
 	z-index: 9999;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	bottom: 0;
 	left: 0;

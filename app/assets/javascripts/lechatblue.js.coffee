@@ -1,9 +1,11 @@
-overlay =
-	close: -> $("#overlay").animate {"opacity": "0"}, 300, -> $("#overlay").css("display", "none")
+window._overlay_ =
+	privateDuration: 300
+	close: -> $("#overlay").animate {"opacity": "0"}, this.privateDuration, -> $("#overlay").css("display", "none")
 	open: ->
 		$("#overlay").css("display", "block")
-		$("#overlay").animate {"opacity": "1"}, 300
+		$("#overlay").animate {"opacity": "1"}, this.privatDuration
 	html: (string) -> $("#overlay_content").html(string)
+	htmlAndOpen: (string) -> this.html(string) ; this.open()
 
 resizeScreen = ->
 	$("#overlay > div#overlay_content").height $(window).height() - 150
@@ -16,6 +18,7 @@ $(window).on "load", ->
 	"test"
 
 $ ->
+	window._csrfToken_ = $("meta[name=csrf-token]").attr "content"
 	resizeScreen()
 
 	$("body").css "visibility", "visible"
@@ -40,4 +43,4 @@ $ ->
 		href = $(this).attr("data-href")
 		window.location = href
 
-	$("#overlay_close").click -> overlay.close()
+	$("#overlay_close").click -> window._overlay_.close()
