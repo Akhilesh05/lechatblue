@@ -12,7 +12,7 @@ Lechatblue::Application.routes.draw do
 	get "confirm-order/resend-confirmation-code", as: :resend_confirmation_code, resend: true, to: "welcome#confirm_order"
 	post "delivery-receipt", to: "welcome#delivery_receipt"
 	get "about-us", to: "welcome#about_us", as: :about_us
-	post "ajax/get_pizza_details"
+	post "ajax/get_pizza_details.json", format: false, to: "ajax#get_pizza_details"
 	# The priority is based upon order of creation: first created -> highest priority.
 	# See how all your routes lay out with "rake routes".
 
