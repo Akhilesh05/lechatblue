@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96bfc33e-e416-4265-939a-3b3d84c8547b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__lechatblue.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__lechatblue.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lechatblue.iml" afterPath="$PROJECT_DIR$/.idea/lechatblue.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/welcome/menu_category.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/welcome/menu_category.js.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lechatblue.iws" />
@@ -18,7 +16,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/lechatblue@db_migrate__lechatblue.coverage" NAME="db:migrate: lechatblue Coverage Results" MODIFIED="1395601869346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lechatblue" />
-    <SUITE FILE_PATH="coverage/lechatblue@Development__lechatblue.coverage" NAME="Development: lechatblue Coverage Results" MODIFIED="1396376113904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lechatblue" />
+    <SUITE FILE_PATH="coverage/lechatblue@Development__lechatblue.coverage" NAME="Development: lechatblue Coverage Results" MODIFIED="1396458104197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lechatblue" />
     <SUITE FILE_PATH="coverage/lechatblue@Production__lechatblue.coverage" NAME="Production: lechatblue Coverage Results" MODIFIED="1396208036472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lechatblue" />
     <SUITE FILE_PATH="coverage/lechatblue@Rails_console__lechatblue.coverage" NAME="Rails console: lechatblue Coverage Results" MODIFIED="1395602856213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lechatblue" />
   </component>
@@ -37,7 +35,25 @@
       <file leaf-file-name="lechatblue.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="20" selection-start="4639" selection-end="4639" vertical-scroll-proportion="-16.96" vertical-offset="3053" max-vertical-offset="5396">
+            <state line="176" column="8" selection-start="4548" selection-end="4548" vertical-scroll-proportion="-11.64" vertical-offset="3053" max-vertical-offset="5396">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="171">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu_category.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="28" selection-start="3362" selection-end="3362" vertical-scroll-proportion="-3.66" vertical-offset="729" max-vertical-offset="1596">
               <folding />
             </state>
           </provider>
@@ -55,25 +71,32 @@
       <file leaf-file-name="lechatblue.js.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="4" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="969">
+            <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu_category.js.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="menu_category.js.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/menu_category.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="16" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="798">
-              <folding />
+            <state line="2" column="88" selection-start="200" selection-end="200" vertical-scroll-proportion="0.063439064" vertical-offset="0" max-vertical-offset="950">
+              <folding>
+                <marker date="1396463863205" expanded="true" signature="185:200" placeholder="..." />
+                <marker date="1396463863205" expanded="true" signature="713:750" placeholder="..." />
+                <marker date="1396463863205" expanded="true" signature="713:724" placeholder="..." />
+                <marker date="1396463863205" expanded="true" signature="777:805" placeholder="..." />
+                <marker date="1396463863205" expanded="true" signature="859:873" placeholder="..." />
+                <marker date="1396463863205" expanded="true" signature="1052:1064" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="66" selection-start="461" selection-end="461" vertical-scroll-proportion="0.21732026" vertical-offset="0" max-vertical-offset="1444">
+            <state line="20" column="0" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1444">
               <folding />
             </state>
           </provider>
@@ -91,8 +114,13 @@
       <file leaf-file-name="menu_category.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/menu_category.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="8" selection-start="2356" selection-end="2356" vertical-scroll-proportion="-21.44" vertical-offset="338" max-vertical-offset="988">
-              <folding />
+            <state line="34" column="17" selection-start="2022" selection-end="2022" vertical-scroll-proportion="-12.32" vertical-offset="338" max-vertical-offset="988">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,8 +186,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss" />
         <option value="$PROJECT_DIR$/app/controllers/ajax_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/welcome/menu_category.js.coffee" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/welcome/menu_category.js.coffee" />
       </list>
     </option>
   </component>
@@ -249,7 +277,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lechatblue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lechatblue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lechatblue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lechatblue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="welcome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lechatblue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lechatblue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -510,7 +604,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265625" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3260188" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -546,24 +640,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140320124934_add_add_ons_to_pizzas.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="62" selection-end="62" vertical-scroll-proportion="0.042079207" vertical-offset="0" max-vertical-offset="404" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/confirm_order.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/confirm_order.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="38" selection-start="145" selection-end="145" vertical-scroll-proportion="0.35978836" vertical-offset="0" max-vertical-offset="378" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="41" selection-start="3273" selection-end="3273" vertical-scroll-proportion="0.08869565" vertical-offset="697" max-vertical-offset="1428" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/place_order.css.scss">
@@ -726,11 +805,6 @@
         <state line="59" column="5" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.93811077" vertical-offset="545" max-vertical-offset="1368" />
       </provider>
     </entry>
-    <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/jquery-rails-3.1.0/vendor/assets/javascripts/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7978" column="4" selection-start="219538" selection-end="219538" vertical-scroll-proportion="0.93677205" vertical-offset="150791" max-vertical-offset="196289" />
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/rails-4.0.3/guides/assets/javascripts/guides.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="4" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.6905537" vertical-offset="583" max-vertical-offset="1197" />
@@ -758,20 +832,6 @@
         <state line="196" column="0" selection-start="3064" selection-end="3064" vertical-scroll-proportion="0.33224756" vertical-offset="3520" max-vertical-offset="72447" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="20" selection-start="4639" selection-end="4639" vertical-scroll-proportion="-16.96" vertical-offset="3053" max-vertical-offset="5396">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/activerecord-4.0.3/lib/active_record/dynamic_matchers.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="8" selection-start="505" selection-end="505" vertical-scroll-proportion="0.33224756" vertical-offset="62" max-vertical-offset="2603" />
@@ -791,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/menu_category.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="8" selection-start="2356" selection-end="2356" vertical-scroll-proportion="-21.44" vertical-offset="338" max-vertical-offset="988">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ajax_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="11" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
@@ -805,17 +858,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/menu_category.js.coffee">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="16" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="798">
+        <state line="20" column="0" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1444">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/E4X.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="66" selection-start="461" selection-end="461" vertical-scroll-proportion="0.21732026" vertical-offset="0" max-vertical-offset="1444">
+        <state line="249" column="14" selection-start="4432" selection-end="4432" vertical-scroll-proportion="0.33333334" vertical-offset="4527" max-vertical-offset="6004">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Ruby200/lib/ruby/gems/2.0.0/gems/jquery-rails-3.1.0/vendor/assets/javascripts/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6777" column="0" selection-start="187644" selection-end="187644" vertical-scroll-proportion="0.33222038" vertical-offset="128336" max-vertical-offset="196289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/lechatblue.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/menu_category.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="17" selection-start="2022" selection-end="2022" vertical-scroll-proportion="-12.32" vertical-offset="338" max-vertical-offset="988">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/lechatblue.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="176" column="8" selection-start="4548" selection-end="4548" vertical-scroll-proportion="-11.64" vertical-offset="3053" max-vertical-offset="5396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/welcome/menu_category.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="28" selection-start="3362" selection-end="3362" vertical-scroll-proportion="-3.66" vertical-offset="729" max-vertical-offset="1596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/welcome/menu_category.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="88" selection-start="200" selection-end="200" vertical-scroll-proportion="0.063439064" vertical-offset="0" max-vertical-offset="950">
+          <folding>
+            <marker date="1396463863205" expanded="true" signature="185:200" placeholder="..." />
+            <marker date="1396463863205" expanded="true" signature="713:750" placeholder="..." />
+            <marker date="1396463863205" expanded="true" signature="713:724" placeholder="..." />
+            <marker date="1396463863205" expanded="true" signature="777:805" placeholder="..." />
+            <marker date="1396463863205" expanded="true" signature="859:873" placeholder="..." />
+            <marker date="1396463863205" expanded="true" signature="1052:1064" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

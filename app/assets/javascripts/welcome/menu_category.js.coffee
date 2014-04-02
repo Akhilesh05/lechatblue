@@ -1,20 +1,28 @@
 pizza = (name='', ingredients=Array(), description='', price=Object(), image='') ->
-	$("#overlay_content").html("")
-	this.name = name
-	this.ingredients = "-&nbsp;" + ingredients.join("<br />-&nbsp;")
-	this.description = description
-	this.price = "<b>Small:</b> Rs" + price.small + " <b>Medium:</b> Rs" + price.medium + " <b>Large:</b> Rs" + price.large
-	this.image = image + ".jpg"
-	this.setName = (name) -> $("#hidden_pizza_name").html name
-	this.setIngredients = (ingredients) -> $("#hidden_pizza_ingredients").html ingredients
-	this.setDescription = (description) -> $("#hidden_pizza_description").html description
-	this.setPrice = (price) -> $("#hidden_pizza_price").html price
-	this.setImage = (image) -> $("#hidden_pizza_image").html image
-	this.setName this.name
-	this.setIngredients this.ingredients
-	this.setDescription this.description
-	this.setPrice this.price
-	this.setImage this.image
+	$("#overlay_content").html ""
+	this.name = "<div id=\"hidden_pizza_name\" class=\"heading\" style=\"padding-left: 0\">" + name + "</div>"
+	this.ingredients = "<div id=\"hidden_pizza_ingredients\">" + "-&nbsp;" + ingredients.join("<br />-&nbsp;") + "</div>"
+	this.description = "<div id=\"hidden_pizza_description\">" + description + "</div>"
+	this.price = "<div id=\"hidden_pizza_price\">" + "<b>Small:</b> Rs" + price.small + " <b>Medium:</b> Rs" + price.medium + " <b>Large:</b> Rs" + price.large + "</div>"
+	this.image = "<img src=\"" + "/images/items/p_" + image + ".jpg" + "\" />"
+	this.innerHtml =    "<aside id=\"hidden\">" +
+							"<div id=\"hidden_pizza\">" +
+								"<div style=\"width: 431px; margin: 0 auto\">" + this.name + "</div>" +
+								"<table style=\"margin: 0 auto\">" +
+									"<tr>" +
+										"<td>" +
+											"<div>" + "<div id=\"hidden_pizza_image\">" + this.image + "</div>" + "</div>" +
+										"</td>" +
+										"<td style=\"width: 300px\">" +
+											"<div>" + this.ingredients + "</div>" +
+											"<div>" + this.description + "</div>" +
+											"<div>" + this.price + "</div>" +
+										"</td>" +
+									"</tr>" +
+								"</table>" +
+							"</div>" +
+						"</aside>"
+	$("#overlay_content").html this.innerHtml
 
 openPizzaOverlay = (pizzaId) ->
 	$.ajax "/ajax/get_pizza_details.json",
